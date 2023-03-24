@@ -8,6 +8,10 @@ const lengDetail = [
     {
         link: './html-introduction-02.html',
         pageName: 'HTML introduction',
+    },
+    {
+        link: "./html-Editor-03.html",
+        pageName: "HTML Editor"
     }
 ];
 lengDetail.map(function (x) {
@@ -26,6 +30,10 @@ const html = [
     {
         link: "./html-introduction-02.html",
         pageName: "HTML introduction",
+    },
+    {
+        link: "./html-Editor-03.html",
+        pageName: "HTML Editor"
     }
 
 ];

@@ -19,6 +19,10 @@ const searchValue = [
     {
         link: "./html-introduction-02.html",
         pageName: "HTML introduction",
+    },
+    {
+        link: "./html-Editor-03.html",
+        pageName: "HTML Editor"
     }
 ];
 searchValue.map(function (x) {
