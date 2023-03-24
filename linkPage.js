@@ -1,3 +1,4 @@
+//! HEader DropDown 
 let DropDown = document.getElementById("lengCodeDetailHTML");
 const lengDetail = [
     {
@@ -15,11 +16,12 @@ lengDetail.map(function (x) {
     `
 });
 
+//! Aside PageLink 
 let pageLink = document.getElementById("pageLink");
 const html = [
     {
         link: "./HTML-Home-01.html",
-        pageName: "HTML Home",
+        pageName: "HTML Basic",
     },
     {
         link: "./html-introduction-02.html",

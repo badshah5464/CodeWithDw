@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./CodeWithDW.css" />
     <link rel="stylesheet" href="./responsive.css" />
     <link rel="stylesheet" href="./gen.css" />
+    <link rel="stylesheet" href="./search.css">
   </head>
 
   <body class="index-body">
@@ -217,6 +218,17 @@
 
     <footer class="index-footer" id="footer"></footer>
 
+    <!--! Search Input Is here -->
+    <section class="searchBox">
+      <div class="searchIcon" id="searchIcon"><img src="./SearchIcon.png" id="searchIconChange"></div>
+      <div class="searchInput" id="searchInput">
+        <input type="text" placeholder="Search..." id="search" onkeyup="searchFunction()">
+        <div class="searchOver-f">
+          <ul class="searchMenu" id="addMenu"></ul>
+        </div>
+      </div>
+    </section>
+
     <script>
       document.getElementById("htmlPage01Code").innerHTML = `
       &lt;!DOCTYPE html&gt;
@@ -237,6 +249,7 @@
       `;
     </script>
 
+    <script src="./search.js"></script>
     <script src="./gen.js"></script>
     <script src="./linkPage.js"></script>
     <script src="./lengPage.js"></script>

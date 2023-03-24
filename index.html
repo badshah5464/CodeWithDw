@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/010f924f62.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/010f924f62.js" crossorigin="anonymous"></script>
     <!--* Logo -->
     <link rel="icon" href="./OnlyDW-MetalPNG.png" />
     <title>CodeWithDW</title>
@@ -17,6 +15,7 @@
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./gen.css" />
     <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="./search.css">
   </head>
 
   <body class="index-body">
@@ -30,10 +29,8 @@
           <div class="logo-img"><img src="./OnlyDW-MetalPNG.png" alt="" /></div>
           <div class="logo-name">
             <p>
-              <span>C</span>ode<span>W</span>ith<span
-                class="logo-name-greaterthan"
-                ><i class="fa-sharp fa-solid fa-greater-than"></i></span
-              >DW
+              <span>C</span>ode<span>W</span>ith<span class="logo-name-greaterthan"><i
+                  class="fa-sharp fa-solid fa-greater-than"></i></span>DW
             </p>
           </div>
         </div>
@@ -47,30 +44,19 @@
         <div class="navigation-detail" id="navigationDetail">
           <ul>
             <li>
-              <a href="#"
-                ><span class="navigation-icon"
-                  ><i class="fa-solid fa-house"></i></span
-                ><span>Home</span></a
-              >
+              <a href="#"><span class="navigation-icon"><i class="fa-solid fa-house"></i></span><span>Home</span></a>
             </li>
             <li>
-              <a href="./HTML-Home-01.html"
-                ><span class="navigation-icon"
-                  ><i class="fa-solid fa-code"></i></span
-                ><span>Basic Starting</span></a
-              >
+              <a href="./HTML-Home-01.html"><span class="navigation-icon"><i
+                    class="fa-solid fa-code"></i></span><span>Basic Starting</span></a>
             </li>
             <li>
-              <a href="#footer"
-                ><span class="navigation-icon"
-                  ><i class="fa-solid fa-circle-info"></i></span
-                ><span>About</span></a
-              >
+              <a href="#footer"><span class="navigation-icon"><i
+                    class="fa-solid fa-circle-info"></i></span><span>About</span></a>
             </li>
             <!--! ChangeTheme -->
             <li class="changeTheme" id="changeThemeIndex">
-              <img src="./MoonColor.png" / width="20vw"
-              id="changeModeIconIndex">
+              <img src="./MoonColor.png" / width="20vw" id="changeModeIconIndex">
               <p id="modeTitleIndex">Night Mode</p>
             </li>
           </ul>
@@ -117,8 +103,6 @@
           </div>
         </div>
       </section>
-
-      <script></script>
     </header>
 
     <!--* Main  -->
@@ -248,10 +232,20 @@
         </div>
       </section>
     </main>
-    <a href="./demo/demo.html">Impossible Try</a>
 
     <!--? Global Footer  -->
     <footer class="index-footer" id="footer"></footer>
+
+    <!--! Search Input Is here -->
+    <section class="searchBox">
+      <div class="searchIcon" id="searchIcon"><img src="./SearchIcon.png" id="searchIconChange"></div>
+      <div class="searchInput" id="searchInput">
+        <input type="text" placeholder="Search..." id="search" onkeyup="searchFunction()">
+        <div class="searchOver-f">
+          <ul class="searchMenu" id="addMenu"></ul>
+        </div>
+      </div>
+    </section>
 
     <script>
       {
@@ -306,10 +300,12 @@
       }
     </script>
 
+    <script src="./search.js"></script>
     <script src="./gen.js"></script>
     <script src="./index.js"></script>
     <script src="./linkPage.js"></script>
     <script src="./CodeWithDW.js"></script>
     <script src="./footerCopy.js"></script>
   </body>
+
 </html>
