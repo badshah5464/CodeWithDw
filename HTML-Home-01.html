@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/010f924f62.js" crossorigin="anonymous"></script>
+    <!--? Logo -->
+    <link rel="icon" href="./OnlyDW-MetalPNG.png" />
+    <title>Basic-HTML-page01</title>
+    <link rel="stylesheet" href="./headerAndFooter.css" />
+    <link rel="stylesheet" href="./link-page.css" />
+    <link rel="stylesheet" href="./CodeWithDW.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="./gen.css" />
+  </head>
+
+  <body class="index-body">
+    <header class="index-header">
+      <section class="header-heading">
+        <p>CodeWithDW.pvt</p>
+      </section>
+      <nav>
+        <!--* Logo end LogoName is here -->
+        <div class="logo">
+          <div class="logo-img"><img src="./OnlyDW-MetalPNG.png" alt="" /></div>
+          <div class="logo-name">
+            <p>
+              <span>C</span>ode<span>W</span>ith<span class="logo-name-greaterthan"><i
+                  class="fa-sharp fa-solid fa-greater-than"></i></span>DW
+            </p>
+          </div>
+        </div>
+        <!--! Navigation button response in mobile -->
+        <div class="navigation-linkPage" id="navigationIcon">
+          <section class="navBar-linkPage" onclick="change(this)">
+            <div class="bar01-linkPage"></div>
+            <div class="bar02-linkPage"></div>
+            <div class="bar03-linkPage"></div>
+          </section>
+          <script>
+            function change(x) {
+              x.classList.toggle("change-linkPage");
+            }
+          </script>
+        </div>
+        <div class="navigation-detail" id="navigationDetail">
+          <ul>
+            <!-- ! Switching Page end about (Main navBar)  -->
+            <li>
+              <a href="./index.html"><span class="navigation-icon"><i
+                    class="fa-solid fa-house"></i></span><span>Home</span></a>
+            </li>
+            <li>
+              <a href="./HTML-Home-01.html"><span class="navigation-icon"><i
+                    class="fa-solid fa-code"></i></span><span>Basic to Start</span></a>
+            </li>
+            <li>
+              <a href="#footer"><span class="navigation-icon"><i
+                    class="fa-solid fa-circle-info"></i></span><span>About</span></a>
+            </li>
+            <!--! Change Theme  -->
+            <li class="changeTheme" id="changeTheme">
+              <img src="./MoonColor.png" / width="20vw" id="changeIcon">
+              <p id="modeTitle">Night Mode</p>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="leng-detail" id="lengDetailDropDown">
+        <!--? Responsive topic button -->
+        <section class="topic-navBtn">
+          <div class="leng-topic-navBtn" id="lengTopicNavBtn">
+            <i class="fas fa-bars-staggered"></i>
+          </div>
+        </section>
+
+        <!--? DropDown Leng Link -->
+        <div class="leng-option">
+          <div class="direct-leng">
+            <a href="./html-introduction-02.html">HTML</a>
+          </div>
+          <div class="code-detail hover">
+            <i class="fas fa-arrow-down-short-wide"></i>
+            <!--! More leng detail link here to effect dropDown  -->
+            <div class="code-page down">
+              <ul id="lengCodeDetailHTML"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="leng-option">
+          <div class="direct-leng">
+            <a href="">CSS</a>
+          </div>
+          <div class="code-detail hover">
+            <i class="fas fa-arrow-down-short-wide"></i>
+            <!--! More leng detail link here to effect dropDown  -->
+            <div class="code-page down">
+              <ul id="lengCodeDetailCSS"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="leng-option">
+          <div class="direct-leng">
+            <a href="">JavaScript</a>
+          </div>
+          <div class="code-detail hover">
+            <i class="fas fa-arrow-down-short-wide"></i>
+            <!--! More leng detail link here to effect dropDown  -->
+            <div class="code-page down">
+              <ul id="lengCodeDetailJavaScript"></ul>
+            </div>
+          </div>
+        </div>
+
+        <!--? Go to top button -->
+        <div class="goToTop">
+          <a href="#"><i class="fas fa-upload"></i></a>
+        </div>
+      </section>
+    </header>
+
+    <main class="linked-page">
+      <!--?  link page is here also response-->
+      <aside class="joinResponseAside">
+        <section class="linkPageAside" id="linkPageAside">
+          <div class="aside-heading">
+            <h2>HTML Tutorial</h2>
+          </div>
+          <!--! Page link in inside js (linkPage.js) -->
+          <div class="page-link" id="pageLink"></div>
+        </section>
+      </aside>
+
+      <!--! MainTopic is here  -->
+      <section class="page-topic">
+        <!--? Top Heading -->
+        <h2>HTML Tutorial</h2>
+
+        <!--? back and next button -->
+        <section class="forword-back-btn">
+          <!--* Back  -->
+          <div class="back-next-btn hint">
+            <div class="_hint">
+              <a href="./index.html"><i class="fas fa-angle-left"></i> Back</a>
+              <div class="_sugest">
+                <p>Back to home</p>
+              </div>
+            </div>
+          </div>
+          <!--* Next  -->
+          <div class="back-next-btn hint">
+            <div class="_hint">
+              <a href="./html-introduction-02.html">Next <i class="fas fa-angle-right"></i></a>
+              <div class="_sugest">
+                <p>Next Page</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="hr-simple" />
+
+        <section class="page">
+          <h3>Easy Learning with HTML "Try it Yourself"</h3>
+          <article>
+            <p>
+              With our "Try it Yourself" editor, you can edit the HTML code and
+              view the result:
+            </p>
+          </article>
+          <section class="leng-code">
+            <h3>Example :</h3>
+
+            <pre class="myCode">
+              <!--* HTML Home  -->
+              <code class="language-markup" id="htmlPage01Code"></code>
+            </pre>
+
+            <!--! Show Result Output  -->
+            <section class="outputResult">
+              <!--! Output Button  -->
+              <div class="output">
+                <button class="a-btn" onclick="showOutput(event , 'htmlTutorial')">
+                  Output
+                </button>
+              </div>
+              <!--! Result section  -->
+              <div class="result" id="htmlTutorial">
+                <!--! Cancel Button  -->
+                <span onclick="this.parentElement.style.display='none'">
+                  <div class="cancelBar">
+                    <div class="bar01"></div>
+                    <div class="bar02"></div>
+                  </div>
+                </span>
+                <!--! result sow is here  -->
+                <h1>This is a heading</h1>
+                <p>This is a paragraph</p>
+              </div>
+            </section>
+          </section>
+
+          <article>
+            <p class="bold-900">
+              Click on the "Try it Yourself" button to see how it works.
+            </p>
+          </article>
+        </section>
+        <hr class="hr-simple" />
+
+        <!--! /page-topic  -->
+      </section>
+    </main>
+
+    <footer class="index-footer" id="footer"></footer>
+
+    <script>
+      document.getElementById("htmlPage01Code").innerHTML = `
+      &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+
+        &lt;head&gt;
+            &lt;title&gt;Page title&lt;/title&gt;
+        &lt;/head&gt;
+
+        &lt;body&gt;
+
+            &lt;h1&gt;This is a heading&lt;/h1&gt;
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+        &lt;/body&gt;
+
+        &lt;/html&gt;
+      `;
+    </script>
+
+    <script src="./gen.js"></script>
+    <script src="./linkPage.js"></script>
+    <script src="./lengPage.js"></script>
+    <script src="./CodeWithDW.js"></script>
+    <script src="./footerCopy.js"></script>
+  </body>
+
+</html>
