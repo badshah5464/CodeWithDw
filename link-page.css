@@ -110,7 +110,7 @@ li {
 
 .page-topic h2 {
     font-family: var(--header-heading);
-    font-size: 3vw;
+    /* font-size: 1.3em; */
 }
 
 .leng-topic-navBtn {

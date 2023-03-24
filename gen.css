@@ -46,6 +46,8 @@ mark {
     --code-page-ul-li-borderBottom: 2px solid black;
     --hr-border: 2px solid black;
     --border-2pxSolid-black: 2px solid black;
+    --border-1pxSolid-black: 1px solid black;
+    --border-1pxSolid-white: 1px solid white;
     /** Gen Color */
     --darkGreen: darkgreen;
     --darkBlue: darkblue;
@@ -81,6 +83,8 @@ mark {
     --code-page-ul-li-borderBottom: 2px solid white;
     --hr-border: 2px solid white;
     --border-2pxSolid-black: 2px solid rgb(255, 255, 255);
+    --border-1pxSolid-black: 1px solid white;
+    --border-1pxSolid-white: 1px solid black;
     /** Gen Color */
     --darkGreen: lightgreen;
     --darkBlue: lightblue;

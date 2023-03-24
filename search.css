@@ -3,7 +3,7 @@
     float: right;
     position: fixed;
     right: 0;
-    top: 300px;
+    top: 19vh;
     animation: RightToLeft 3.5s ease forwards 0s;
     -webkit-animation: RightToLeft 3.5s ease forwards 0s;
 }
@@ -12,11 +12,11 @@
     background-color: var(--searchIcon-bg);
     padding: .5em 1.3em .5em .5em;
     cursor: pointer;
-    border-radius: 10px 0 0 5px;
-    -webkit-border-radius: 10px 0 0 5px;
-    -moz-border-radius: 10px 0 0 5px;
-    -ms-border-radius: 10px 0 0 5px;
-    -o-border-radius: 10px 0 0 5px;
+    border-radius: 5px 0 0 10px;
+    -webkit-border-radius: 5px 0 0 10px;
+    -moz-border-radius: 5px 0 0 10px;
+    -ms-border-radius: 5px 0 0 10px;
+    -o-border-radius: 5px 0 0 10px;
 }
 
 #searchIconChange {

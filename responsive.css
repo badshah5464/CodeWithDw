@@ -338,6 +338,7 @@
     .myTable {
         margin: 1em 0;
     }
+
     .table {
         width: 88vw;
     }
@@ -380,6 +381,22 @@
         padding: .5em 0 0 0;
     }
 
+    .goToTop {
+        padding: 0 .3em;
+    }
+
+    .leng-topic-navBtn {
+        margin: 0 .3em;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .leng-detail {
+        font-size: 5vw;
+    }
+    .goToTop {
+        display: none;
+    }
 }
 
 @media screen and (max-width:265px) {

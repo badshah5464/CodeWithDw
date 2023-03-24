@@ -1,0 +1,32 @@
+.webBrowserImg>img {
+    width: 70vw;
+    margin: 1em 0;
+    border: var(--border-1pxSolid-black);
+}
+
+.structure {
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--gray);
+    border: var(--border-1pxSolid-white);
+    color: var(--white-text);
+}
+
+.structure div {
+    padding: 1em 0;
+    margin: 1em;
+    border: var(--border-1pxSolid-white);
+    color: var(--white-text);
+}
+
+@media screen and (max-width:600px) {
+    .structure {
+        margin: .5em;
+        padding: .5em;
+    }
+
+    .structure div {
+        padding: .5em 0;
+        margin: .5em;
+    }
+}
