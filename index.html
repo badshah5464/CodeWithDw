@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/010f924f62.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--* Logo -->
+    <link rel="icon" href="./OnlyDW-MetalPNG.png" />
+    <title>CodeWithDW</title>
+    <link rel="stylesheet" href="./CodeWithDW.css" />
+    <!--* style's  -->
+    <link rel="stylesheet" href="./headerAndFooter.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./gen.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+
+  <body class="index-body">
+    <!--? index Header  -->
+    <header class="index-header">
+      <section class="header-heading">
+        <p>CodeWithDW.pvt</p>
+      </section>
+      <nav>
+        <div class="logo">
+          <div class="logo-img"><img src="./OnlyDW-MetalPNG.png" alt="" /></div>
+          <div class="logo-name">
+            <p>
+              <span>C</span>ode<span>W</span>ith<span
+                class="logo-name-greaterthan"
+                ><i class="fa-sharp fa-solid fa-greater-than"></i></span
+              >DW
+            </p>
+          </div>
+        </div>
+        <div class="navigation-mobile" id="navigationIcon">
+          <section class="navBar" onclick="change(this)">
+            <div class="bar01"></div>
+            <div class="bar02"></div>
+            <div class="bar03"></div>
+          </section>
+        </div>
+        <div class="navigation-detail" id="navigationDetail">
+          <ul>
+            <li>
+              <a href="#"
+                ><span class="navigation-icon"
+                  ><i class="fa-solid fa-house"></i></span
+                ><span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="./HTML-Home-01.html"
+                ><span class="navigation-icon"
+                  ><i class="fa-solid fa-code"></i></span
+                ><span>Basic Starting</span></a
+              >
+            </li>
+            <li>
+              <a href="#footer"
+                ><span class="navigation-icon"
+                  ><i class="fa-solid fa-circle-info"></i></span
+                ><span>About</span></a
+              >
+            </li>
+            <!--! ChangeTheme -->
+            <li class="changeTheme" id="changeThemeIndex">
+              <img src="./MoonColor.png" / width="20vw"
+              id="changeModeIconIndex">
+              <p id="modeTitleIndex">Night Mode</p>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="leng-detail">
+        <!--? DropDown Leng Link -->
+        <div class="leng-option">
+          <div class="direct-leng">
+            <a href="./HTML-Home-01.html">HTML</a>
+          </div>
+          <div class="code-detail hover">
+            <i class="fas fa-arrow-down-short-wide"></i>
+            <!--! More leng detail link here to effect dropDown  -->
+            <div class="code-page down">
+              <ul id="lengCodeDetailHTML"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="leng-option">
+          <div class="direct-leng">
+            <a href="">CSS</a>
+          </div>
+          <div class="code-detail hover">
+            <i class="fas fa-arrow-down-short-wide"></i>
+            <!--! More leng detail link here to effect dropDown  -->
+            <div class="code-page down">
+              <ul id="lengCodeDetailCSS"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="leng-option">
+          <div class="direct-leng">
+            <a href="">JavaScript</a>
+          </div>
+          <div class="code-detail hover">
+            <i class="fas fa-arrow-down-short-wide"></i>
+            <!--! More leng detail link here to effect dropDown  -->
+            <div class="code-page down">
+              <ul id="lengCodeDetailJavaScript"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script></script>
+    </header>
+
+    <!--* Main  -->
+    <main class="index-main">
+      <!--* main-title -->
+      <section class="main-title">
+        <div class="main-title-about">
+          <div>
+            <div class="line left-line"></div>
+            <div>
+              <h2>
+                learning Fullstack <br />
+                Web Development
+              </h2>
+            </div>
+            <div class="line right-line"></div>
+          </div>
+          <div>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>NodeJS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-title-img">
+          <img src="./main-title-img.jpg" alt="main-title-image" />
+        </div>
+      </section>
+      <!--* LineTitle -->
+      <div class="line-title">
+        <div class="lineTwo left-line"></div>
+        <div class="line-heading">
+          <h2>
+            High-light <br />
+            Language
+          </h2>
+        </div>
+        <div class="lineTwo right-line"></div>
+      </div>
+      <!--* ImageAutoSlide -->
+      <section class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./HTML.png" style="width: 100%" />
+          <div class="mySlideshow-detail">
+            <p>HTML</p>
+            <div>
+              <a href="./HTML-Home-01.html" class="a-btn">Click Here!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./CSS.png" style="width: 100%" />
+          <div class="mySlideshow-detail">
+            <p>CSS</p>
+            <div><a href="" class="a-btn">Click Here!</a></div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./JavaScript.png" style="width: 100%" />
+          <div class="mySlideshow-detail">
+            <p>JavaScript</p>
+            <div><a href="" class="a-btn">Click Here!</a></div>
+          </div>
+        </div>
+      </section>
+      <div class="line-title">
+        <div class="lineTwo left-line"></div>
+        <div class="line-heading">
+          <h2>
+            Basic language <br />
+            Code with example
+          </h2>
+        </div>
+        <div class="lineTwo right-line"></div>
+      </div>
+      <!--* Language's -->
+      <hr />
+      <section>
+        <div class="code" id="html">
+          <div class="code-title">
+            <h3>HTML</h3>
+            <div><img src="./HTMLIcon.png" alt="" class="leng-img" /></div>
+            <a href="./HTML-Home-01.html" class="a-btn code-btn">Learn HTML</a>
+          </div>
+          <div class="output-code">
+            <pre class="code-display">
+              <code class="language-markup code-text" id="htmlCode"></code>
+            </pre>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="code" id="css">
+          <div class="code-title">
+            <h3>CSS</h3>
+            <div><img src="./CSSIcon.png" alt="" class="leng-img" /></div>
+            <a href="" class="a-btn code-btn">Learn CSS</a>
+          </div>
+          <div class="output-code">
+            <pre class="code-display">
+              <code class="language-css code-text" id="cssCode"></code>
+            </pre>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="code" id="javaScript">
+          <div class="code-title">
+            <h3>JavaScript</h3>
+            <div>
+              <img src="./JavaScriptIcon.png" alt="" class="leng-img" />
+            </div>
+            <a href="" class="a-btn code-btn">Learn JavaScript</a>
+          </div>
+          <div class="output-code">
+            <pre class="code-display">
+              <code class="language-js code-text" id="javaScriptCode"></code>
+            </pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--? Global Footer  -->
+    <footer class="index-footer" id="footer"></footer>
+
+    <script>
+      {
+        // HTML Code
+        document.getElementById("htmlCode").innerHTML = `
+            &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;title&gt;document&lt;/title&gt;
+                    &lt;/head&gt;
+                    
+                    &lt;body&gt;
+                        &lt;h1&gt;This is a heading&lt;/h1&gt;
+                        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                        &lt;/body&gt;
+                    
+                &lt;/html&gt;
+            `;
+
+        // CSS Code
+        document.getElementById("cssCode").innerHTML = `
+            body {
+                background-color: green;
+            }
+
+            h1 {
+                color: red;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            p {
+                font-size: 25px;
+                text-shadow: 2px 2px 4px black;
+            }
+            `;
+
+        // JavaScript
+        document.getElementById("javaScriptCode").innerHTML = `
+                let fruits = ["Apple","Banana","kiwi","orange"];
+
+                text = "";
+                for (i = 0; i < fruits.length; i++) {
+                    text += fruits[i] + "&lt;br&gt;";
+                }
+
+                document.getElementById("demo").innerHTML = fruits;
+            `;
+      }
+    </script>
+
+    <script src="./gen.js"></script>
+    <script src="./index.js"></script>
+    <script src="./linkPage.js"></script>
+    <script src="./CodeWithDW.js"></script>
+    <script src="./footerCopy.js"></script>
+  </body>
+</html>
