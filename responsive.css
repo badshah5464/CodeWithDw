@@ -236,7 +236,7 @@
     /* * leng-detail */
     .down {
         width: 30vw;
-        right: -30px;
+        /* right: -30px; */
     }
 
     /*! index-main  */
@@ -350,7 +350,7 @@
     /* * leng-detail */
     .down {
         width: 35vw;
-        right: -20px;
+        right: -70px;
     }
 
     /*! Index-main */
@@ -396,8 +396,13 @@
     .leng-detail {
         font-size: 5vw;
     }
+
     .goToTop {
         display: none;
+    }
+
+    .down {
+        width: 45vw;
     }
 }
 
