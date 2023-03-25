@@ -31,6 +31,10 @@ const searchValue = [
     {
         link: "./JavaScript-Basic-01.html",
         pageName: "Basic of JavaScript"
+    },
+    {
+        link: "./AdvanceMethod.html",
+        pageName: "Advance Method's"
     }
 ];
 searchValue.map(function (x) {
