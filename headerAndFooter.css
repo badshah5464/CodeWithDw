@@ -215,6 +215,7 @@ nav {
     padding: .5em 1em;
     box-shadow: var(--boxShadow-black-inset);
     font-size: 14px;
+    /* right: 10px; */
 }
 
 .hover:hover .down {

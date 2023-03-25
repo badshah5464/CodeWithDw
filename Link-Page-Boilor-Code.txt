@@ -98,7 +98,7 @@
                 <div class="leng-option">
                     <div class="direct-leng">
                         <!--! DropDown Topic -->
-                        <a href="|||||">CSS</a>
+                        <a href="./CSS-Basic-01.html">CSS</a>
                     </div>
                     <div class="code-detail hover">
                         <i class="fas fa-arrow-down-short-wide"></i>
@@ -133,10 +133,12 @@
             <aside class="joinResponseAside">
                 <section class="linkPageAside" id="linkPageAside">
                     <div class="aside-heading">
-                        <h2>HTML Tutorial</h2>
+                        <h2>Basic Of CSS</h2>
                     </div>
                     <!--? Page link in inside js (linkPage.js) -->
-                    <div class="page-link" id="pageLink"></div>
+                    <div class="page-link">
+                        <ul id="pageLinkCSS"></ul>
+                    </div>
                 </section>
             </aside>
 
@@ -149,7 +151,7 @@
                     <div class="back-next-btn hint">
                         <div class="_hint">
                             <!--! Back  -->
-                            <a href="||||||"><i class="fas fa-angle-left"></i> Back</a>
+                            <a href="./index.html"><i class="fas fa-angle-left"></i> Back</a>
                             <div class="_sugest">
                                 <p>Back to home</p>
                             </div>
@@ -188,7 +190,9 @@
         </section>
 
         <script src="./search.js"></script>
-        <script src="./linkPage.js"></script>
+        <script src="./linkPageHTML.js"></script>
+        <script src="./linkPageJavaScript.js"></script>
+        <script src="./linkPageCSS.js"></script>
         <script src="./gen.js"></script>
         <script src="./lengPage.js"></script>
         <script src="./CodeWithDW.js"></script>

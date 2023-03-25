@@ -236,6 +236,7 @@
     /* * leng-detail */
     .down {
         width: 30vw;
+        right: -30px;
     }
 
     /*! index-main  */
@@ -348,7 +349,8 @@
 
     /* * leng-detail */
     .down {
-        width: 40vw;
+        width: 35vw;
+        right: -20px;
     }
 
     /*! Index-main */
