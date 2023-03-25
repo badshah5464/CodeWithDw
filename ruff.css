@@ -19,6 +19,15 @@
     color: var(--white-text);
 }
 
+.notepadImg>img {
+    width: 60vw;
+}
+
+.html-editor-img>img {
+    width: 60vw;
+    margin: 1em 0;
+}
+
 @media screen and (max-width:600px) {
     .structure {
         margin: .5em;
@@ -28,5 +37,9 @@
     .structure div {
         padding: .5em 0;
         margin: .5em;
+    }
+
+    .notepadImg>img {
+        width: 80vw;
     }
 }

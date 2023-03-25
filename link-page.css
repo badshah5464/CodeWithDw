@@ -105,12 +105,12 @@ li {
 }
 
 .page-topic p {
-    font-family: var(--martian-mono);
+    font-family: var(--nunito);
 }
 
 .page-topic h2 {
     font-family: var(--header-heading);
-    /* font-size: 1.3em; */
+     font-size: 2em; 
 }
 
 .leng-topic-navBtn {
@@ -205,15 +205,15 @@ article>p {
 
         ! inside page show output your need
         <section class="outputResult">
-          <!--! Output Button  -->
+          <!--? Output Button  -->
           <div class="output">
-            <button class="a-btn" onclick="showOutput(event , '==')">
+            <button class="a-btn" onclick="showOutput(event , '|||||')">
               Output
             </button>
           </div>
-          <!--! Result section  -->
-          <div class="result" id="==">
-            <!--! Cancel Button  -->
+          <!--? Result section  -->
+          <div class="result" id="|||||">
+            <!--? Cancel Button  -->
             <span onclick="this.parentElement.style.display='none'">
               <div class="cancelBar">
                 <div class="bar01"></div>
@@ -284,6 +284,10 @@ article>p {
     border: var(--border-2pxDashed-red);
     background-color: white;
     color: black;
+}
+
+.result h1 {
+    font-size: 2em;
 }
 
 .bar01,
