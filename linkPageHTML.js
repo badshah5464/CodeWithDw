@@ -15,14 +15,11 @@ const lengDetailHtml = [
         pageName: "HTML Editor"
     }
 ];
+
 lengDetailHtml.map(function (x) {
-    DropDownHtml.innerHTML += `
-        <li><a href="${x.link}">${x.pageName}</a></li>
-    `;
+    DropDownHtml.innerHTML += `<li><a href="${x.link}">${x.pageName}</a></li>`;
 });
 
 lengDetailHtml.map(function (x) {
-    pageLinkHTML.innerHTML += `
-        <li><a href="${x.link}">${x.pageName}</a></li>
-    `;
+    pageLinkHTML.innerHTML += `<li><a href="${x.link}">${x.pageName}</a></li>`;
 })

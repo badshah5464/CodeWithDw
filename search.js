@@ -26,7 +26,7 @@ const searchValue = [
     },
     {
         link: "./CSS-Basic-01.html",
-        pageName: "Basic of CSS"
+        pageName: "CSS Tutorial"
     },
     {
         link: "./JavaScript-Basic-01.html",

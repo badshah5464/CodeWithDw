@@ -236,8 +236,11 @@
     /* * leng-detail */
     .down {
         width: 30vw;
-        /* right: -30px; */
     }
+
+    /* .lengOptionSection {
+        display: none;
+    } */
 
     /*! index-main  */
 

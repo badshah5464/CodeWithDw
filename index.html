@@ -56,51 +56,66 @@
             </li>
             <!--! ChangeTheme -->
             <li class="changeTheme" id="changeThemeIndex">
-              <img src="./MoonColor.png" / width="20vw" id="changeModeIconIndex">
+              <img src="./MoonColor.png" width="20vw" id="changeModeIconIndex">
               <p id="modeTitleIndex">Night Mode</p>
             </li>
           </ul>
         </div>
       </nav>
+
+      <!--? Leng Options  -->
       <section class="leng-detail">
-        <!--? DropDown Leng Link -->
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="./HTML-Home-01.html">HTML</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailHTML"></ul>
-            </div>
-          </div>
-        </div>
+        <section class="lengOptionSection">
 
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="./CSS-Basic-01.html">CSS</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailCSS"></ul>
+          <div class="leng-option">
+            <div class="code-detail">
+              <div class="direct-leng">HTML</div>
+              <div class="code-page">
+                <ul id="lengCodeDetailHTML"></ul>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="./JavaScript-Basic-01.html">JavaScript</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailJavaScript"></ul>
+          <div class="leng-option">
+            <div class="code-detail hover">
+              <div class="direct-leng">CSS</div>
+              <div class="code-page down">
+                <ul id="lengCodeDetailCSS"></ul>
+              </div>
             </div>
           </div>
+
+          <div class="leng-option">
+            <div class="code-detail hover">
+              <div class="direct-leng">JavaScript</div>
+              <div class="code-page down">
+                <ul id="lengCodeDetailJavaScript"></ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="leng-option">
+            <div class="code-detail hover">
+              <div class="direct-leng">React</div>
+              <div class="code-page down">
+                <ul id="lengCodeDetailReact"></ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="leng-option">
+            <div class="code-detail hover">
+              <div class="direct-leng">NodeJs</div>
+              <div class="code-page down">
+                <ul id="lengCodeDetailNodeJa"></ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--? Go to top button -->
+        <div class="goToTop">
+          <a href="#"><i class="fas fa-upload"></i></a>
         </div>
       </section>
     </header>
@@ -120,7 +135,7 @@
             </div>
             <div class="line right-line"></div>
           </div>
-          <div>
+          <!-- <div>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -128,7 +143,7 @@
               <li>React</li>
               <li>NodeJS</li>
             </ul>
-          </div>
+          </div> -->
         </div>
         <div class="main-title-img">
           <img src="./main-title-img.jpg" alt="main-title-image" />
@@ -138,10 +153,7 @@
       <div class="line-title">
         <div class="lineTwo left-line"></div>
         <div class="line-heading">
-          <h2>
-            High-light <br />
-            Language
-          </h2>
+          <h2>High-light <br /> Language</h2>
         </div>
         <div class="lineTwo right-line"></div>
       </div>
@@ -161,7 +173,7 @@
           <img src="./CSS.png" style="width: 100%" />
           <div class="mySlideshow-detail">
             <p>CSS</p>
-            <div><a href="" class="a-btn">Click Here!</a></div>
+            <div><a href="./CSS-Basic-01.html" class="a-btn">Click Here!</a></div>
           </div>
         </div>
 
@@ -169,7 +181,7 @@
           <img src="./JavaScript.png" style="width: 100%" />
           <div class="mySlideshow-detail">
             <p>JavaScript</p>
-            <div><a href="" class="a-btn">Click Here!</a></div>
+            <div><a href="./JavaScript-Basic-01.html" class="a-btn">Click Here!</a></div>
           </div>
         </div>
       </section>
@@ -184,7 +196,7 @@
         <div class="lineTwo right-line"></div>
       </div>
       <!--* Language's -->
-      <hr />
+      <hr class="hr-simple">
       <section>
         <div class="code" id="html">
           <div class="code-title">
@@ -199,13 +211,13 @@
           </div>
         </div>
       </section>
-      <hr />
+      <hr class="hr-simple">
       <section>
         <div class="code" id="css">
           <div class="code-title">
             <h3>CSS</h3>
             <div><img src="./CSSIcon.png" alt="" class="leng-img" /></div>
-            <a href="" class="a-btn code-btn">Learn CSS</a>
+            <a href="./CSS-Basic-01.html" class="a-btn code-btn">Learn CSS</a>
           </div>
           <div class="output-code">
             <pre class="code-display">
@@ -214,7 +226,7 @@
           </div>
         </div>
       </section>
-      <hr />
+      <hr class="hr-simple">
       <section>
         <div class="code" id="javaScript">
           <div class="code-title">
@@ -222,7 +234,7 @@
             <div>
               <img src="./JavaScriptIcon.png" alt="" class="leng-img" />
             </div>
-            <a href="" class="a-btn code-btn">Learn JavaScript</a>
+            <a href="./JavaScript-Basic-01.html" class="a-btn code-btn">Learn JavaScript</a>
           </div>
           <div class="output-code">
             <pre class="code-display">

@@ -32,6 +32,7 @@ mark {
     --main-theme: #eaf8fd;
     --linkPageAside: #dfdfdf;
     --leng-topic-navBtn: #001212;
+    --btn-color: #ddd;
     /** text */
     --black-text: black;
     --white-text: white;
@@ -69,6 +70,7 @@ mark {
     --main-theme: #00050f;
     --linkPageAside: rgb(10, 10, 10);
     --leng-topic-navBtn: #ffffcc;
+    --btn-color: #2a2a2a;
     /** text */
     --black-text: white;
     --white-text: black;
