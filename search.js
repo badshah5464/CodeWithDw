@@ -23,6 +23,14 @@ const searchValue = [
     {
         link: "./html-Editor-03.html",
         pageName: "HTML Editor"
+    },
+    {
+        link: "./CSS-Basic-01.html",
+        pageName: "Basic of CSS"
+    },
+    {
+        link: "./JavaScript-Basic-01.html",
+        pageName: "Basic of JavaScript"
     }
 ];
 searchValue.map(function (x) {

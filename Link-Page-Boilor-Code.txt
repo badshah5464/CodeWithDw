@@ -112,7 +112,7 @@
                 <div class="leng-option">
                     <div class="direct-leng">
                         <!--! DropDown Topic -->
-                        <a href="||||||">JavaScript</a>
+                        <a href="./JavaScript-Basic-01.html">JavaScript</a>
                     </div>
                     <div class="code-detail hover">
                         <i class="fas fa-arrow-down-short-wide"></i>
