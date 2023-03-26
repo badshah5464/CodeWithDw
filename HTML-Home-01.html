@@ -33,6 +33,7 @@
             </p>
           </div>
         </div>
+
         <!--! Navigation button response in mobile -->
         <div class="navigation-linkPage" id="navigationIcon">
           <section class="navBar-linkPage" onclick="change(this)">
@@ -76,71 +77,38 @@
             <i class="fas fa-bars-staggered"></i>
           </div>
         </section>
-        <!--? DropDown Leng Link -->
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="./html-introduction-02.html">HTML</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailHTML"></ul>
-            </div>
-          </div>
-        </div>
 
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="./CSS-Basic-01.html">CSS</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailCSS"></ul>
+        <!--! Language Page's Section -->
+        <section class="menuListSection">
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <div class="LengOptions">
+                <button class="accordion">HTML</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailHTML"></ul>
+                </div>
+                <button class="accordion">CSS</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailCSS"></ul>
+                </div>
+                <button class="accordion">JavaScript</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailJavaScript"></ul>
+                </div>
+                <button class="accordion">React</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailReact"></ul>
+                </div>
+                <button class="accordion">NodeJs</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailNodeJs"></ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="./JavaScript-Basic-01.html">JavaScript</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailJavaScript"></ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="||||">React</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailJavaScript"></ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="leng-option">
-          <div class="direct-leng">
-            <a href="|||||">NodeJs</a>
-          </div>
-          <div class="code-detail hover">
-            <i class="fas fa-arrow-down-short-wide"></i>
-            <!--! More leng detail link here to effect dropDown  -->
-            <div class="code-page down">
-              <ul id="lengCodeDetailJavaScript"></ul>
-            </div>
-          </div>
-        </div>
+          <div style="font-size:20px;cursor:pointer" onclick="openNav()">Menu</div>
+        </section>
 
         <!--? Go to top button -->
         <div class="goToTop">
