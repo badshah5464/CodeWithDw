@@ -7,5 +7,8 @@
     "editor.cursorStyle": "block-outline",
     "editor.cursorBlinking": "expand",
     "editor.wrappingStrategy": "advanced",
-    "editor.cursorSmoothCaretAnimation": "on"
+    "editor.cursorSmoothCaretAnimation": "on",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "off",
+    "editor.accessibilityPageSize": 10
 }
