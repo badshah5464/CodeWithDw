@@ -56,9 +56,8 @@
                                         class="fa-solid fa-house"></i></span><span>Home</span></a>
                         </li>
                         <li>
-                            <a href="./HTML-01.html"><span class="navigation-icon"><i
-                                        class="fa-solid fa-code"></i></span><span>Basic
-                                    to Start</span></a>
+                            <a href="./AdvanceMethod.html"><span class="navigation-icon"><i
+                                        class="fa-solid fa-code"></i></span><span>Advance Method's</span></a>
                         </li>
                         <li>
                             <a href="#footer"><span class="navigation-icon"><i
@@ -81,47 +80,41 @@
                     </div>
                 </section>
 
-                <div class="leng-option">
-                    <div class="direct-leng">
-                        <!--! DropDown Topic -->
-                        <a href="./HTML-Home-01.html">HTML</a>
-                    </div>
-                    <div class="code-detail hover">
-                        <i class="fas fa-arrow-down-short-wide"></i>
-                        <!--? More leng detail link here to effect dropDown  -->
-                        <div class="code-page down">
-                            <ul id="lengCodeDetailHTML"></ul>
-                        </div>
-                    </div>
+                 <!--! Language Page's Section -->
+        <section class="menuListSection">
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <div class="LengOptions">
+                  <button class="accordion">HTML</button>
+                  <div class="panel">
+                    <ul id="lengCodeDetailHTML"></ul>
+                  </div>
+                  <button class="accordion">CSS</button>
+                  <div class="panel">
+                    <ul id="lengCodeDetailCSS"></ul>
+                  </div>
+                  <button class="accordion">JavaScript</button>
+                  <div class="panel">
+                    <ul id="lengCodeDetailJavaScript"></ul>
+                  </div>
+                  <button class="accordion">React</button>
+                  <div class="panel">
+                    <ul id="lengCodeDetailReact"></ul>
+                  </div>
+                  <button class="accordion">NodeJs</button>
+                  <div class="panel">
+                    <ul id="lengCodeDetailNodeJs"></ul>
+                  </div>
+                  <button class="accordion">Advance Method's</button>
+                  <div class="panel">
+                    <ul id="lengCodeDetailAdvanceMethod's"></ul>
+                  </div>
                 </div>
-
-                <div class="leng-option">
-                    <div class="direct-leng">
-                        <!--! DropDown Topic -->
-                        <a href="./CSS-Basic-01.html">CSS</a>
-                    </div>
-                    <div class="code-detail hover">
-                        <i class="fas fa-arrow-down-short-wide"></i>
-                        <!--? More leng detail link here to effect dropDown  -->
-                        <div class="code-page down">
-                            <ul id="lengCodeDetailCSS"></ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="leng-option">
-                    <div class="direct-leng">
-                        <!--! DropDown Topic -->
-                        <a href="./JavaScript-Basic-01.html">JavaScript</a>
-                    </div>
-                    <div class="code-detail hover">
-                        <i class="fas fa-arrow-down-short-wide"></i>
-                        <div class="code-page down">
-                            <!--? More leng detail link here to effect dropDown  -->
-                            <ul id="lengCodeDetailJavaScript"></ul>
-                        </div>
-                    </div>
-                </div>
+              </div>
+            </div>
+            <div class="openNav" onclick="openNav()">Menu</div>
+          </section>
 
                 <div class="goToTop">
                     <a href="#"><i class="fas fa-upload"></i></a>
@@ -144,7 +137,7 @@
 
             <section class="page-topic">
                 <!--!Here is main Heading  -->
-                <h2>This is a heading</h2>
+                <h2>CSS Tutorial</h2>
                 <hr class="hr-simple" />
                 <!--? back and next button -->
                 <section class="forword-back-btn">
