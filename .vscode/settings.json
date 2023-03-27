@@ -1,6 +1,8 @@
 {
-    "editor.fontSize": 20,
+    "editor.fontSize": 17,
     "editor.tabSize": 4,
     "liveServer.settings.port": 5501,
-    "liveServer.settings.fullReload": false
+    "liveServer.settings.fullReload": false,
+    "editor.fontFamily": "'Ubuntu'",
+    "editor.cursorStyle": "block"
 }
