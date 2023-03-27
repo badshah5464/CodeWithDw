@@ -4,7 +4,7 @@
     "liveServer.settings.port": 5501,
     "liveServer.settings.fullReload": false,
     "editor.fontFamily": "sans-serif",
-    "editor.cursorStyle": "block-outline",
+    "editor.cursorStyle": "block",
     "editor.cursorBlinking": "expand",
     "editor.wrappingStrategy": "advanced",
     "editor.cursorSmoothCaretAnimation": "on",

@@ -33,7 +33,7 @@ mark {
     --linkPageAside: #dfdfdf;
     --leng-topic-navBtn: #001212;
     --btn-color: #ddd;
-    --btn-dark:#4d4d4d;
+    --btn-dark: #4d4d4d;
     /** text */
     --black-text: black;
     --white-text: white;
@@ -64,7 +64,7 @@ mark {
     /** mark and tag's only  */
     --mark: hsla(0, 0%, 0%, 0.5);
     --searchIcon-bg: hsla(0, 100%, 80%, 0.5);
-    --overlay-bg:rgba(197, 197, 255, 0.95);
+    --overlay-bg: rgba(197, 197, 255, 0.95);
 }
 
 .darkMode {
@@ -74,7 +74,7 @@ mark {
     --linkPageAside: rgb(10, 10, 10);
     --leng-topic-navBtn: #ffffcc;
     --btn-color: #2a2a2a;
-    --btn-dark:#dddddd;
+    --btn-dark: #dddddd;
     /** text */
     --black-text: white;
     --white-text: black;
@@ -181,6 +181,17 @@ mark {
 
 .m-all-1vw {
     margin: 1vw 1vw;
+}
+
+.m-lr-1em {
+    margin: 0 1em;
+}
+
+.m-lr-2em {
+    margin: 0 2em;
+}
+.m-lr-3vw {
+    margin: 0 3vw;
 }
 
 .p-tb-1em {
