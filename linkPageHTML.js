@@ -1,6 +1,7 @@
 //? HTML
 let DropDownHtml = document.getElementById("lengCodeDetailHTML");
 let pageLinkHTML = document.getElementById("pageLinkHTML");
+
 const lengDetailHtml = [
     {
         link: './HTML-Home-01.html',
