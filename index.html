@@ -25,6 +25,7 @@
         <p>CodeWithDW.pvt</p>
       </section>
       <nav>
+        <!--* Logo end LogoName is here -->
         <div class="logo">
           <div class="logo-img"><img src="./OnlyDW-MetalPNG.png" alt="" /></div>
           <div class="logo-name">
@@ -34,6 +35,7 @@
             </p>
           </div>
         </div>
+
         <div class="navigation-mobile" id="navigationIcon">
           <section class="navBar" onclick="change(this)">
             <div class="bar01"></div>
@@ -63,54 +65,43 @@
         </div>
       </nav>
 
-      <!--? Leng Options  -->
-      <section class="leng-detail">
-        <section class="lengOptionSection">
+      <!--* leng-detail-->
+      <section class="leng-detail" id="lengDetailDropDown">
 
-          <div class="leng-option">
-            <div class="code-detail">
-              <div class="direct-leng">HTML</div>
-              <div class="code-page">
-                <ul id="lengCodeDetailHTML"></ul>
+        <!--! Language Page's Section -->
+        <section class="menuListSection">
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <div class="LengOptions">
+                <button class="accordion">HTML</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailHTML"></ul>
+                </div>
+                <button class="accordion">CSS</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailCSS"></ul>
+                </div>
+                <button class="accordion">JavaScript</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailJavaScript"></ul>
+                </div>
+                <button class="accordion">React</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailReact"></ul>
+                </div>
+                <button class="accordion">NodeJs</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailNodeJs"></ul>
+                </div>
+                <button class="accordion">Advance Method's</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailAdvanceMethod's"></ul>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="leng-option">
-            <div class="code-detail hover">
-              <div class="direct-leng">CSS</div>
-              <div class="code-page down">
-                <ul id="lengCodeDetailCSS"></ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="leng-option">
-            <div class="code-detail hover">
-              <div class="direct-leng">JavaScript</div>
-              <div class="code-page down">
-                <ul id="lengCodeDetailJavaScript"></ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="leng-option">
-            <div class="code-detail hover">
-              <div class="direct-leng">React</div>
-              <div class="code-page down">
-                <ul id="lengCodeDetailReact"></ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="leng-option">
-            <div class="code-detail hover">
-              <div class="direct-leng">NodeJs</div>
-              <div class="code-page down">
-                <ul id="lengCodeDetailNodeJa"></ul>
-              </div>
-            </div>
-          </div>
+          <div class="openNav" onclick="openNav()">Menu</div>
         </section>
 
         <!--? Go to top button -->

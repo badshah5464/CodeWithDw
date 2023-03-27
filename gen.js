@@ -9,6 +9,11 @@ navigationIcon.addEventListener("click", function () {
     }
 })
 
+//! Navigation Button change toggle 
+function change(x) {
+    x.classList.toggle("change-linkPage");
+  }
+
 //! Language Page's Section
 function openNav() {
     document.getElementById("myNav").style.width = "100%";

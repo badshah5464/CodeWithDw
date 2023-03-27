@@ -17,9 +17,9 @@ const lengDetailHtml = [
 ];
 
 lengDetailHtml.map(function (x) {
-    pageLinkHTML.innerHTML += `<li><a href="${x.link}">${x.pageName}</a></li>`;
-})
-
-lengDetailHtml.map(function (x) {
     DropDownHtml.innerHTML += `<li><a href="${x.link}">${x.pageName}</a></li>`;
 });
+
+lengDetailHtml.map(function (x) {
+    pageLinkHTML.innerHTML += `<li><a href="${x.link}">${x.pageName}</a></li>`;
+})

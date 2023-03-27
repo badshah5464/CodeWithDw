@@ -33,6 +33,7 @@ mark {
     --linkPageAside: #dfdfdf;
     --leng-topic-navBtn: #001212;
     --btn-color: #ddd;
+    --btn-dark:#4d4d4d;
     /** text */
     --black-text: black;
     --white-text: white;
@@ -49,6 +50,7 @@ mark {
     --border-2pxSolid-black: 2px solid black;
     --border-1pxSolid-black: 1px solid black;
     --border-1pxSolid-white: 1px solid white;
+    --border-1pxSolid-gray: 1px solid gray;
     /** Gen Color */
     --darkGreen: darkgreen;
     --darkBlue: darkblue;
@@ -59,9 +61,10 @@ mark {
     --gray: gray;
     --light-red: #ffa5a5;
     --dark-yellow: #ffe600;
-
+    /** mark and tag's only  */
     --mark: hsla(0, 0%, 0%, 0.5);
     --searchIcon-bg: hsla(0, 100%, 80%, 0.5);
+    --overlay-bg:rgba(197, 197, 255, 0.95);
 }
 
 .darkMode {
@@ -71,6 +74,7 @@ mark {
     --linkPageAside: rgb(10, 10, 10);
     --leng-topic-navBtn: #ffffcc;
     --btn-color: #2a2a2a;
+    --btn-dark:#dddddd;
     /** text */
     --black-text: white;
     --white-text: black;
@@ -87,6 +91,7 @@ mark {
     --border-2pxSolid-black: 2px solid rgb(255, 255, 255);
     --border-1pxSolid-black: 1px solid white;
     --border-1pxSolid-white: 1px solid black;
+    --border-1pxSolid-gray: 1px solid lightgray;
     /** Gen Color */
     --darkGreen: lightgreen;
     --darkBlue: lightblue;
@@ -97,9 +102,10 @@ mark {
     --gray: lightgray;
     --light-red: #ff3d3d;
     --dark-yellow: #fff27c;
-
+    /** mark and tag's only  */
     --mark: hsla(0, 0%, 100%, 0.5);
     --searchIcon-bg: hsla(0, 0%, 100%, 0.5);
+    --overlay-bg: rgb(2, 0, 26, .95);
 }
 
 /*! |||||||||||||||||||||||||||| */

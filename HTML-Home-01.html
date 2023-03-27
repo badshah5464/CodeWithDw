@@ -41,11 +41,6 @@
             <div class="bar02-linkPage"></div>
             <div class="bar03-linkPage"></div>
           </section>
-          <script>
-            function change(x) {
-              x.classList.toggle("change-linkPage");
-            }
-          </script>
         </div>
         <div class="navigation-detail" id="navigationDetail">
           <ul>
@@ -70,6 +65,8 @@
           </ul>
         </div>
       </nav>
+      
+      <!--* leng-detail-->
       <section class="leng-detail" id="lengDetailDropDown">
         <!--? Responsive topic button -->
         <section class="topic-navBtn">
@@ -104,10 +101,14 @@
                 <div class="panel">
                   <ul id="lengCodeDetailNodeJs"></ul>
                 </div>
+                <button class="accordion">Advance Method's</button>
+                <div class="panel">
+                  <ul id="lengCodeDetailAdvanceMethod's"></ul>
+                </div>
               </div>
             </div>
           </div>
-          <div style="font-size:20px;cursor:pointer" onclick="openNav()">Menu</div>
+          <div class="openNav" onclick="openNav()">Menu</div>
         </section>
 
         <!--? Go to top button -->
