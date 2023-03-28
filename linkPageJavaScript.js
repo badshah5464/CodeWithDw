@@ -1,5 +1,4 @@
 //? JavaScript
-let DropDownJavaScript = document.getElementById("lengCodeDetailJavaScript");
 let PageLinkJavaScript = document.getElementById("pageLinkJavaScript");
 const lengDetailJavaScript = [
     {
@@ -7,12 +6,6 @@ const lengDetailJavaScript = [
         pageName: "Basic of JavaScript"
     },
 ];
-
-lengDetailJavaScript.map(function (x) {
-    DropDownJavaScript.innerHTML += `
-        <li><a href="${x.link}">${x.pageName}</a></li>
-    `;
-});
 
 lengDetailJavaScript.map(function (x) {
     PageLinkJavaScript.innerHTML += `

@@ -1,5 +1,4 @@
 //? CSS
-let DropDownCSS = document.getElementById("lengCodeDetailCSS");
 let PageLinkCSS = document.getElementById("pageLinkCSS");
 const lengDetailCSS = [
     {
@@ -7,10 +6,6 @@ const lengDetailCSS = [
         pageName: "CSS Tutorial"
     },
 ];
-
-lengDetailCSS.map(function (x) {
-    DropDownCSS.innerHTML += `<li><a href="${x.link}">${x.pageName}</a></li>`;
-});
 
 lengDetailCSS.map(function (x) {
     PageLinkCSS.innerHTML += `<li><a href="${x.link}">${x.pageName}</a></li>`;
