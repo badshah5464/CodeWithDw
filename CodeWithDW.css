@@ -728,7 +728,7 @@ div.code-toolbar>.toolbar>.toolbar-item>span {
 	/*  */
 	z-index: 2;
 	padding: .5em 1em;
-	margin: .5em;
+	margin: .5em 1.5em;
 	font-weight: 600;
 	font-family: Arial, Helvetica, sans-serif;
 	/*  */
