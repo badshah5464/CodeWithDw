@@ -48,11 +48,11 @@ li {
     font-family: var(--martian-mono);
 }
 
-.page-topic p{
+.page-topic p {
     margin: .4em;
 }
 
-/*? Aisde Section */
+/*? aisde Section */
 .linked-page {
     padding: 6.5em 0 0 0;
     position: relative;
@@ -387,4 +387,12 @@ td {
 
 .table tr:nth-child(even) {
     background-color: var(--light-blue);
+}
+
+/*! page-topic inside use class's */
+.imp-txt {
+    padding: 3em 2em;
+    margin: 1em 0;
+    background-color: var(--imp-txt);
+    font-weight: 600;
 }

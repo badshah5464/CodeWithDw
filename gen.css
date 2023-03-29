@@ -65,6 +65,7 @@ mark {
     --mark: hsla(0, 0%, 0%, 0.5);
     --searchIcon-bg: hsla(0, 100%, 80%, 0.5);
     --overlay-bg: rgba(197, 197, 255, 0.95);
+    --imp-txt: pink;
 }
 
 .darkMode {
@@ -106,6 +107,7 @@ mark {
     --mark: hsla(0, 0%, 100%, 0.5);
     --searchIcon-bg: hsla(0, 0%, 100%, 0.5);
     --overlay-bg: rgb(2, 0, 26, .95);
+    --imp-txt: rgb(80, 0, 80);
 }
 
 /*! |||||||||||||||||||||||||||| */
@@ -190,6 +192,7 @@ mark {
 .m-lr-2em {
     margin: 0 2em;
 }
+
 .m-lr-3vw {
     margin: 0 3vw;
 }
@@ -224,9 +227,11 @@ ul.m-all-05em-3vw {
 .lightBlue {
     color: var(--darkBlue);
 }
+
 .purple {
     color: purple;
 }
+
 /** Edit */
 .bold {
     font-weight: bold;
