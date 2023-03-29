@@ -10,6 +10,7 @@
         body {
             background-color: tomato;
             font-family: Arial, Helvetica, sans-serif;
+            padding: 0 2em;
         }
 
         header>h1,
@@ -47,13 +48,40 @@
             float: right;
         }
 
-        main>section>div:first-child>section>a {
-            display: block;
+        main>section>div:first-child>section>div {
             background-color: tomato;
-            color: white;
+            border: 2px solid tomato;
             padding: .5em 1em;
             margin: .8em 1em;
             width: 10em;
+            border-radius: 20px;
+        }
+
+        main>section>div:first-child>section>div:hover {
+            background-color: white;
+        }
+
+        main>section>div:first-child>section>div:hover a {
+            color: tomato;
+        }
+
+        main>section>div:first-child>section>div:nth-child(2) {
+            background-color: white;
+        }
+
+        main>section>div:first-child>section>div>a {
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        main>section>div:first-child>section>div:nth-child(2)>a {
+            color: tomato;
+        }
+
+        aside {
+            padding: 2em 1em;
+            background-color: rgba(255, 255, 255, 0.7);
         }
     </style>
 </head>
@@ -68,11 +96,11 @@
         <section>
             <div>
                 <section>
-                    <a href="./CSS-Demo-Stylesheet01.html">Stylesheet 1</a>
-                    <a href="./CSS-Demo-Stylesheet02.html">Stylesheet 2</a>
-                    <a href="./CSS-Demo-Stylesheet-03.html">Stylesheet 3</a>
-                    <a href="./CSS-Demo-Stylesheet-04.html">Stylesheet 4</a>
-                    <a href="./CSS-Demo-Stylesheet-05.html">No Stylesheet</a>
+                    <div><a href="./CSS-Demo-Stylesheet01.html">Stylesheet 1</a></div>
+                    <div><a href="./CSS-Demo-Stylesheet02.html">Stylesheet 2</a></div>
+                    <div><a href="./CSS-Demo-Stylesheet-03.html">Stylesheet 3</a></div>
+                    <div><a href="./CSS-Demo-Stylesheet-04.html">Stylesheet 4</a></div>
+                    <div><a href="./CSS-Demo-Stylesheet-05.html">No Stylesheet</a></div>
                 </section>
                 <h2>Same Page Different Stylesheets</h2>
                 <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You

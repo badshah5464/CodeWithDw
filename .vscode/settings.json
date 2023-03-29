@@ -3,7 +3,7 @@
     "editor.tabSize": 4,
     "liveServer.settings.port": 5501,
     "liveServer.settings.fullReload": false,
-    "editor.fontFamily": "sans-serif",
+    "editor.fontFamily": "'Rubik', sans-serif",
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "expand",
     "editor.wrappingStrategy": "advanced",

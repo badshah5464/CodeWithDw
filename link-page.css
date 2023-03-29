@@ -275,6 +275,13 @@ article>p {
     -o-transition: .5s ease-in-out;
 }
 
+.gen-ifrem {
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    padding: 1em;
+}
+
 /*! leng-code output show withDropDow  */
 
 .result {
