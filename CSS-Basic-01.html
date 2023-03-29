@@ -161,6 +161,7 @@
                     </div>
                 </div>
             </section>
+
             <!--! Here to Start to writing Code.  -->
             <section class="codeIsHere">
                 <hr class="hr-simple">
@@ -186,9 +187,69 @@
                 </section>
             </section>
             <hr class="hr-simple">
+            <h2>Why Use CSS?</h2>
+            <p>CSS is used to define styles for your web pages, including the design, layout and variations in display
+                for different devices and screen sizes.</p>
+            <section class="leng-code">
+                <pre class="myCode">
+                        <code class="language-css">
+                            body {
+                                background-color: lightblue;
+                            }
 
+                            h1 {
+                                color: white;
+                                text-aline: center;
+                            }
+
+                            p {
+                                font-family: verdana;
+                                font-size: 20px;
+                            }
+                        </code>
+                    </pre>
+                <section class="outputResult">
+                    <!--? Output Button  -->
+                    <div class="output">
+                        <button class="a-btn" onclick="showOutput(event , 'cssBasic')">
+                            Output
+                        </button>
+                    </div>
+                    <!--? Result section  -->
+                    <div class="result" id="cssBasic">
+                        <!--? Cancel Button  -->
+                        <span onclick="this.parentElement.style.display='none'">
+                            <div class="cancelBar">
+                                <div class="bar01"></div>
+                                <div class="bar02"></div>
+                            </div>
+                        </span>
+                        <!--! result sow is here  -->
+                        <div style="background-color: lightblue; padding: 2em; height: 20vh; border: 1px solid black;">
+                            <h1 style="color:white; text-align: center;">This is a heading</h1>
+                            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;">This is a
+                                paragraph.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <hr class="hr-simple">
+            <h2>CSS Solved a Big Problem</h2>
+            <p>HTML was NEVER intended to contain tags for formatting a web page!</p>
+            <p>HTML was created to describe the content of a web page, like:</p>
+            <p>&LT;h1&GT;This is a heading&LT;/h1&GT;</p>
+            <p>&LT;p&GT;This is a paragraph.&LT;/p&GT;</p>
+            <p>When tags like &gt;font&lt;, and color attributes were added to the HTML 3.2 specification, it started a
+                nightmare for web developers. Development of large websites, where fonts and color information were
+                added to every single page, became a long and expensive process.</p>
+            <p>To solve this problem, the World Wide Web Consortium (W3C) created CSS</p>
+            <p>CSS removed the style formatting from the HTML page!</p>
+            <div class="notice">
+                If you don't know what HTML is, we suggest that you read our <a href="./HTML-Home-01.html">HTML Tutorial</a>.
+            </div>
             <!--! /page-topic -->
         </section>
+
     </main>
 
     <footer class="index-footer" id="footer"></footer>
