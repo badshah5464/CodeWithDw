@@ -1,39 +1,6 @@
 //! linkPage header lengTopicNavBtn
-let lengTopicNavBtn = document.getElementById("lengTopicNavBtn")
-let linkPageAside = document.getElementById("linkPageAside")
-lengTopicNavBtn.addEventListener("click", function () {
-    if (linkPageAside.className === "linkPageAside") {
-        linkPageAside.className += " linkPageAside-response";
-    } else {
-        linkPageAside.className = "linkPageAside"
-    }
-});
-
+let lengTopicNavBtn=document.getElementById("lengTopicNavBtn"),linkPageAside=document.getElementById("linkPageAside");
 //! Output Btn 
-function showOutput(evt, topicName) {
-    let i, outputBtn, result;
-    outputBtn = document.getElementsByClassName("outputBtn");
-    for (i = 0; i < outputBtn.length; i++) {
-        outputBtn[i].className = outputBtn[i].className.replace(
-            " active",
-            ""
-        );
-    }
-    document.getElementById(topicName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
+function showOutput(e,n){let t,c;for(c=document.getElementsByClassName("outputBtn"),t=0;t<c.length;t++)c[t].className=c[t].className.replace(" active","");document.getElementById(n).style.display="block",e.currentTarget.className+=" active"}
 //! Change Theme 
-let changeTheme = document.getElementById("changeTheme");
-let changeIcon = document.getElementById("changeIcon");
-let modeTitle = document.getElementById("modeTitle");
-changeTheme.onclick = function () {
-    document.body.classList.toggle("darkMode");
-    if (document.body.classList.contains("darkMode")) {
-        changeIcon.src = "./SunColor.png";
-        modeTitle.innerHTML = "Light Mode";
-    } else {
-        changeIcon.src = "./MoonColor.png";
-        modeTitle.innerHTML = "Dark Mode";
-    }
-};
+lengTopicNavBtn.addEventListener("click",(function(){"linkPageAside"===linkPageAside.className?linkPageAside.className+=" linkPageAside-response":linkPageAside.className="linkPageAside"}));let changeTheme=document.getElementById("changeTheme"),changeIcon=document.getElementById("changeIcon"),modeTitle=document.getElementById("modeTitle");changeTheme.onclick=function(){document.body.classList.toggle("darkMode"),document.body.classList.contains("darkMode")?(changeIcon.src="./SunColor.png",modeTitle.innerHTML="Light Mode"):(changeIcon.src="./MoonColor.png",modeTitle.innerHTML="Dark Mode")};
