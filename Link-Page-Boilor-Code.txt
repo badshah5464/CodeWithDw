@@ -108,7 +108,7 @@
                   </div>
                   <button class="accordion">Advance Method's</button>
                   <div class="panel">
-                    <ul id="lengCodeDetailAdvanceMethod's"></ul>
+                    <ul id="lengCodeDetailAdvanceMethod"></ul>
                   </div>
                 </div>
               </div>
