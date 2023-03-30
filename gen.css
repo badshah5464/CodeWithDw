@@ -17,7 +17,7 @@ body.index-body {
 
 hr.hr-simple {
     border: var(--hr-border);
-    margin: var(--MP-tb-2vw);
+    margin: 2em 0;
 }
 
 mark {
@@ -62,7 +62,7 @@ mark {
     --light-red: #ffa5a5;
     --dark-yellow: #ffe600;
     /** mark and tag's only  */
-    --mark: hsla(0, 0%, 0%, 0.5);
+    --mark: hsla(0, 0%, 36%, 0.5);
     --searchIcon-bg: hsla(0, 100%, 80%, 0.5);
     --overlay-bg: rgba(197, 197, 255, 0.95);
     --imp-txt: pink;

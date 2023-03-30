@@ -234,6 +234,7 @@ article>p {
 */
 
 .leng-code {
+    width: 80vw;
     background-color: var(--royal-blue);
     padding: 2vw 1vw;
     border-radius: 15px;
@@ -243,6 +244,12 @@ article>p {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+}
+
+.leng-code>h3 {
+    text-transform: uppercase;
+    color: var(--black);
+    font-family: var(--header-heading);
 }
 
 .myCode {

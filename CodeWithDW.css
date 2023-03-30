@@ -20,6 +20,7 @@ pre[class*="language-"] {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1;
+	padding: .5em;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;

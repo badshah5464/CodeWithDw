@@ -232,7 +232,7 @@
                 <p>In this example JavaScript changes the value of the <mark>src</mark> (source) attribute of an
                     <mark>&lt;img&gt;</mark> tag:
                 </p>
-                <!-- <section class="leng-code">
+                <section class="leng-code">
                     <div class="bulbExample">
                         <button onclick="document.getElementById('bulb').src='./pic_bulbon.gif'">Turn On
                             Bulb</button>
@@ -240,11 +240,111 @@
                         <button onclick="document.getElementById('bulb').src='./pic_bulboff.gif'">Turn Off
                             Bulb</button>
                     </div>
-                </section> -->
+                </section>
+                <hr class="hr-simple">
+                <h2>JavaScript Can Change HTML Styles (CSS)</h2>
+                <p>Changing the style of an HTML element, is a variant of changing an HTML attribute:</p>
+                <section class="leng-code">
+                    <h3>example</h3>
+                    <pre class="myCode">
+                        <code class="language-js">
+                            document.getElementById("demo").style.fontSize = "35px";
+                        </code>
+                    </pre>
+                    <section class="outputResult">
+                        <!--? Output Button  -->
+                        <div class="output">
+                            <button class="a-btn" onclick="showOutput(event , 'js-changeCSS')">
+                                Output
+                            </button>
+                        </div>
+                        <!--? Result section  -->
+                        <div class="result" id="js-changeCSS">
+                            <!--? Cancel Button  -->
+                            <span onclick="this.parentElement.style.display='none'">
+                                <div class="cancelBar">
+                                    <div class="bar01"></div>
+                                    <div class="bar02"></div>
+                                </div>
+                            </span>
+                            <!--! result sow is here  -->
+                            <p id="changeCSS">Hello World</p>
+                            <button onclick="document.getElementById('changeCSS').style.fontSize='35px';">Click
+                                Here!</button>
+                        </div>
+                    </section>
+                </section>
+                <hr class="hr-simple">
+                <h2>JavaScript Can Hide HTML Elements</h2>
+                <p>Hiding HTML elements can be done by changing the <mark>display</mark> style:</p>
+                <section class="leng-code">
+                    <h3>example</h3>
+                    <pre class="myCode">
+                        <code class="language-js">
+                            document.getElementById("demo").style.display = "none";
+                        </code>
+                    </pre>
+                    <section class="outputResult">
+                        <!--? Output Button  -->
+                        <div class="output">
+                            <button class="a-btn" onclick="showOutput(event , 'js-changeCSShide')">
+                                Output
+                            </button>
+                        </div>
+                        <!--? Result section  -->
+                        <div class="result" id="js-changeCSShide">
+                            <!--? Cancel Button  -->
+                            <span onclick="this.parentElement.style.display='none'">
+                                <div class="cancelBar">
+                                    <div class="bar01"></div>
+                                    <div class="bar02"></div>
+                                </div>
+                            </span>
+                            <!--! result sow is here  -->
+                            <p id="changeCSShideElement">Hello World</p>
+                            <button
+                                onclick="document.getElementById('changeCSShideElement').style.display = 'none';">Click
+                                Here!</button>
+                        </div>
+                    </section>
+                </section>
+                <hr class="hr-simple">
+                <h2>JavaScript Can Show HTML Elements</h2>
+                <p>Showing hidden HTML elements can also be done by changing the <mark>display</mark> style:</p>
+                <section class="leng-code">
+                    <h3>example</h3>
+                    <pre class="myCode">
+                        <code class="language-js">
+                            document.getElementById("demo").style.display = "block";
+                        </code>
+                    </pre>
+                    <section class="outputResult">
+                        <!--? Output Button  -->
+                        <div class="output">
+                            <button class="a-btn" onclick="showOutput(event , 'js-changeCSSshow')">
+                                Output
+                            </button>
+                        </div>
+                        <!--? Result section  -->
+                        <div class="result" id="js-changeCSSshow">
+                            <!--? Cancel Button  -->
+                            <span onclick="this.parentElement.style.display='none'">
+                                <div class="cancelBar">
+                                    <div class="bar01"></div>
+                                    <div class="bar02"></div>
+                                </div>
+                            </span>
+                            <!--! result sow is here  -->
+                            <p id="changeCSSshowElement">Hello World</p>
+                            <button
+                                onclick="document.getElementById('changeCSSshowElement').style.display = 'block';">Click
+                                Here!</button>
+                        </div>
+                    </section>
+                </section>
                 <!--! /page-topic -->
                 <hr class="hr-simple">
             </section>
-        </section>
     </main>
 
     <footer class="index-footer" id="footer"></footer>

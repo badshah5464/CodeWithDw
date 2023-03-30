@@ -36,6 +36,10 @@
     .aside-heading {
         font-size: .8em;
     }
+
+    .leng-code  {
+        width: 75vw;
+    }
 }
 
 @media screen and (max-width:950px) and (min-width:850px) {
@@ -349,6 +353,10 @@
 
     .gen-ifrem {
         height: 80vh;
+    }
+
+    .leng-code {
+        width: 93vw;
     }
 }
 
