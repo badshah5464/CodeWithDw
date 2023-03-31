@@ -10,7 +10,7 @@ const menuJavaScript = [
     { link: "./JavaScript-Basic-01.html", pageName: "Basic of JavaScript" }
 ];
 const menuReact = [
-    { link: "./React-Introduction-01.html", pageName: "React Introduction" }
+    { link: "./React-Introduction-01.html", pageName: "React App Install Method" }
 ];
 const menuAdvanceMethod = [
     { link: "./AdvanceMethod.html", pageName: "Upload Internal image in page." }

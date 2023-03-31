@@ -15,15 +15,6 @@
     <link rel="stylesheet" href="./responsive.css" />
     <link rel="stylesheet" href="search.css">
     <link rel="stylesheet" href="./ruff.css">
-
-    <style>
-        .uploadImg {
-            border-radius: 50%;
-            border: 1px solid gray;
-            width: 20vw;
-            height: 20vw;
-        }
-    </style>
 </head>
 
 <body class="index-body">
@@ -55,7 +46,7 @@
                                     class="fa-solid fa-code"></i></span><span>Advance Method's</span></a></li>
                     <li><a href="#footer"><span class="navigation-icon"><i
                                     class="fa-solid fa-circle-info"></i></span><span>About</span></a></li>
-                    <li class="changeTheme" id="changeTheme"><img src="./MoonColor.png" / width="20vw" id="changeIcon">
+                    <li class="changeTheme" id="changeTheme"><img src="./MoonColor.png" width="20vw" id="changeIcon" />
                         <p id="modeTitle">Night Mode</p>
                     </li>
                 </ul>
@@ -65,6 +56,7 @@
             <section class="topic-navBtn">
                 <div class="leng-topic-navBtn" id="lengTopicNavBtn"><i class="fas fa-bars-staggered"></i></div>
             </section>
+            <!-- ! Menu (About : Language to select direct page) -->
             <section class="menuListSection">
                 <div id="myNav" class="overlay"><a href="javascript:void(0)" class="closebtn"
                         onclick="closeNav()">&times;</a>
@@ -93,22 +85,26 @@
                 </div>
                 <div class="openNav" onclick="openNav()">Menu</div>
             </section>
+            <!--! /  -->
             <div class="goToTop"><a href="#"><i class="fas fa-upload"></i></a></div>
         </section>
     </header>
     <main class="linked-page">
         <aside class="joinResponseAside">
-            <section class="linkPageAside" id="linkPageAside">
+            <section class="linkPageAside">
                 <div class="aside-heading">
-                    <h2>Advance Method's</h2>
+                    <!--! Enter PageLink Heading  -->
+                    <h2>PageLink Heading</h2>
                 </div>
                 <div class="page-link">
-                    <ul id="advanceMethodLink"></ul>
+                    <!--! PageLink is here (Please enter id end create js file inside map() loop) -->
+                    <ul id="|||||"></ul>
                 </div>
             </section>
         </aside>
         <section class="page-topic">
-            <h2>Upload internal image in profile.</h2>
+            <!--! Topic Heading -->
+            <h2>Topic Heading</h2>
             <hr class="hr-simple" />
             <section class="forword-back-btn">
                 <div class="back-next-btn hint">
@@ -129,7 +125,7 @@
             <!--! Code Is Here  -->
             <section class="codeIsHere">
 
-                
+
 
             </section>
             <!--! /Code Is Here  -->
@@ -149,7 +145,6 @@
 
     <script src="./search.js"></script>
     <script src="./AllLengMenu.js"></script>
-    <script src="./linkPageAdvanceMthod.js"></script>
     <script src="./gen.js"></script>
     <script src="./lengPage.js"></script>
     <script src="./CodeWithDW.js"></script>
