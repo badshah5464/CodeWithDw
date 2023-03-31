@@ -3,8 +3,12 @@ let pageLinkAdvanceMethod = document.getElementById("advanceMethodLink");
 const pageLink = [
     {
         link: './AdvanceMethod.html',
-        pageName: 'Upload internal image in profile.',
+        pageName: "Show All Method's",
     },
+    {
+        link: './advanceMethod-internal_img_upload.html',
+        pageName: 'Internal Image Upload In Profile',
+    }
 ];
 
 pageLink.map(function (x) {
