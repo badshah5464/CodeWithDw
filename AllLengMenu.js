@@ -1,15 +1,15 @@
 const menuHtml = [{
-        link: "./HTML-Home-01.html",
-        pageName: "Basic HTML"
-    },
-    {
-        link: "./html-introduction-02.html",
-        pageName: "HTML introduction"
-    },
-    {
-        link: "./html-Editor-03.html",
-        pageName: "HTML Editor"
-    }
+    link: "./HTML-Home-01.html",
+    pageName: "Basic HTML"
+},
+{
+    link: "./html-introduction-02.html",
+    pageName: "HTML introduction"
+},
+{
+    link: "./html-Editor-03.html",
+    pageName: "HTML Editor"
+}
 ];
 const menuCSS = [{
     link: "./CSS-Basic-01.html",
@@ -20,13 +20,17 @@ const menuJavaScript = [{
     pageName: "Basic of JavaScript"
 }];
 const menuReact = [{
-        link: "./React-App-Install-01.html",
-        pageName: "React App Install Method"
-    },
-    {
-        link: "./react-app-structure-02.html",
-        pageName: "React App Structure"
-    },
+    link: "./React-App-Install-01.html",
+    pageName: "React App Install Method"
+},
+{
+    link: "./react-app-structure-02.html",
+    pageName: "React App Structure"
+},
+{
+    link: "./react-app-start-03.html",
+    pageName: "App Start"
+}
 ];
 const menuAdvanceMethod = [{
     link: "./AdvanceMethod.html",

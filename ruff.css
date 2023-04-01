@@ -71,6 +71,12 @@
     margin: 1em 0
 }
 
+.npm-start-img>img {
+    width: 30vw;
+    box-shadow: var(--boxShadow-black-outset);
+    margin: 1em 0
+}
+
 @media screen and (max-width:850px) {
     .appStructure>img {
         width: 50vw

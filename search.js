@@ -24,7 +24,12 @@ const addMenu = document.getElementById("addMenu"),
     }, {
         link: "./react-app-structure-02.html",
         pageName: "React App Structure"
-    }, ];
+    },
+    {
+        link: "./react-app-start-03.html",
+        pageName: "App Start"
+    }
+    ];
 
 const searchIcon = document.getElementById("searchIcon"),
     searchInput = document.getElementById("searchInput"),
