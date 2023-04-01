@@ -135,7 +135,10 @@
 
             </section>
             <!--! /Code Is Here  -->
-            <hr class="hr-simple">
+            <section class="endingTopicLine">
+                <div class="pageLine"></div>
+                <div class="pageLine"></div>
+            </section>
         </section>
     </main>
     <footer class="index-footer" id="footer"></footer>
