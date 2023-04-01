@@ -19,7 +19,7 @@ const addMenu = document.getElementById("addMenu"),
         link: "./AdvanceMethod.html",
         pageName: "All Method's"
     }, {
-        link: "./React-Introduction-01.html",
+        link: "./React-App-Install-01.html",
         pageName: "React App Install"
     }, {
         link: "./react-app-structure-02.html",
