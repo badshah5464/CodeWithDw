@@ -8,7 +8,11 @@ const reactPageLink = [{
 },
 {
     link: "./react-app-start-03.html",
-    pageName:"App Start"
+    pageName: "App Start"
+},
+{
+    link: "./react-app-about-AppJs-04.html",
+    pageName: "About App.js"
 }
 ];
 

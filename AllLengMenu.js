@@ -30,6 +30,10 @@ const menuReact = [{
 {
     link: "./react-app-start-03.html",
     pageName: "App Start"
+},
+{
+    link: "./react-app-about-AppJs-04.html",
+    pageName: "About App.js"
 }
 ];
 const menuAdvanceMethod = [{

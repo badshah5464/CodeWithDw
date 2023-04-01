@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/010f924f62.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./OnlyDW-MetalPNG.png" />
-    <title>Basic-HTML-page01</title>
-    <link rel="stylesheet" href="./headerAndFooter.css" />
-    <link rel="stylesheet" href="./link-page.css" />
+    <title>
+        About App.js
+    </title>
     <link rel="stylesheet" href="./CodeWithDW.css" />
-    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="./headerAndFooter.css" />
     <link rel="stylesheet" href="./gen.css" />
-    <link rel="stylesheet" href="./search.css">
+    <link rel="stylesheet" href="./link-page.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="./ruff.css">
     <style>
-        #pageLinkHTML>li:nth-child(1)>a {
+        #reactLink>li:nth-child(4)>a {
             color: var(--response-content-red);
         }
     </style>
@@ -40,6 +43,11 @@
                     <div class="bar02-linkPage"></div>
                     <div class="bar03-linkPage"></div>
                 </section>
+                <script>
+                    function change(x) {
+                        x.classList.toggle("change-linkPage");
+                    }
+                </script>
             </div>
             <div class="navigation-detail" id="navigationDetail">
                 <ul>
@@ -49,7 +57,7 @@
                                     class="fa-solid fa-code"></i></span><span>Advance Method's</span></a></li>
                     <li><a href="#footer"><span class="navigation-icon"><i
                                     class="fa-solid fa-circle-info"></i></span><span>About</span></a></li>
-                    <li class="changeTheme" id="changeTheme"><img src="./MoonColor.png" / width="20vw" id="changeIcon">
+                    <li class="changeTheme" id="changeTheme"><img src="./MoonColor.png" width="20vw" id="changeIcon" />
                         <p id="modeTitle">Night Mode</p>
                     </li>
                 </ul>
@@ -59,6 +67,7 @@
             <section class="topic-navBtn">
                 <div class="leng-topic-navBtn" id="lengTopicNavBtn"><i class="fas fa-bars-staggered"></i></div>
             </section>
+            <!-- ! Menu (About : Language to select direct page) -->
             <section class="menuListSection">
                 <div id="myNav" class="overlay"><a href="javascript:void(0)" class="closebtn"
                         onclick="closeNav()">&times;</a>
@@ -87,6 +96,7 @@
                 </div>
                 <div class="openNav" onclick="openNav()">Menu</div>
             </section>
+            <!--! /  -->
             <div class="goToTop"><a href="#"><i class="fas fa-upload"></i></a></div>
         </section>
     </header>
@@ -94,70 +104,42 @@
         <aside class="joinResponseAside">
             <section class="linkPageAside" id="linkPageAside">
                 <div class="aside-heading">
-                    <h2>HTML Tutorial</h2>
+                    <!--! Enter PageLink Heading  -->
+                    <h2>React App Start</h2>
                 </div>
                 <div class="page-link">
-                    <ul id="pageLinkHTML"></ul>
+                    <!--! PageLink is here. enter here id and get page's.-->
+                    <ul id="reactLink"></ul>
                 </div>
             </section>
         </aside>
         <section class="page-topic">
-            <h2>HTML Tutorial</h2>
+            <!--! Topic Heading -->
+            <h2>About App.js</h2>
+            <hr class="hr-simple" />
             <section class="forword-back-btn">
                 <div class="back-next-btn hint">
-                    <div class="_hint"><a href="./index.html"><i class="fas fa-angle-left"></i>Back</a>
+                    <div class="_hint"><a href="./react-app-start-03.html"><i class="fas fa-angle-left"></i>Back</a>
                         <div class="_sugest">
                             <p>Back to home</p>
                         </div>
                     </div>
                 </div>
                 <div class="back-next-btn hint">
-                    <div class="_hint"><a href="./html-introduction-02.html">Next <i class="fas fa-angle-right"></i></a>
+                    <div class="_hint"><a href="||||||">Next <i class="fas fa-angle-right"></i></a>
                         <div class="_sugest">
                             <p>Next Page</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <hr class="hr-simple" />
-            <section class="page">
-                <h3>Easy Learning with HTML "Try it Yourself"</h3>
-                <article>
-                    <p>With our "Try it Yourself" editor, you can edit the HTML code and view the result: </p>
-                </article>
-                <section class="leng-code">
-                    <h3>Example :</h3>
-                    <pre class="myCode"><code class="language-markup">
-                        &lt;!DOCTYPE html&gt; 
-                            &lt;html&gt; 
-                                &lt;head&gt; 
-                                    &lt;title&gt;Page title&lt;/title&gt; 
-                                &lt;/head&gt; 
-                                
-                                &lt;body&gt;   
-                                    &lt;h1&gt;This is a heading&lt;/h1&gt; 
-                                    &lt;p&gt;This is a paragraph.&lt;/p&gt; 
-                                &lt;/body&gt; 
-                            &lt;/html&gt; 
-                    </code></pre>
-                    <section class="outputResult">
-                        <div class="output"><button class="a-btn" onclick="showOutput(event , 'htmlTutorial')">Output
-                            </button></div>
-                        <div class="result" id="htmlTutorial"><span onclick="this.parentElement.style.display='none'">
-                                <div class="cancelBar">
-                                    <div class="bar01"></div>
-                                    <div class="bar02"></div>
-                                </div>
-                            </span>
-                            <h1>This is a heading</h1>
-                            <p>This is a paragraph</p>
-                        </div>
-                    </section>
-                </section>
-                <article>
-                    <p class="bold-900">Click on the "Try it Yourself" button to see how it works. </p>
-                </article>
+            <!--! Code Is Here  -->
+            <section class="codeIsHere">
+
+
+
             </section>
+            <!--! /Code Is Here  -->
             <section class="endingTopicLine">
                 <div class="pageLine"></div>
                 <div class="pageLine"></div>
@@ -174,10 +156,11 @@
             </div>
         </div>
     </section>
+
+    <script src="./linkPageReact.js"></script>
     <script src="./search.js"></script>
-    <script src="./gen.js"></script>
     <script src="./AllLengMenu.js"></script>
-    <script src="./linkPageHTML.js"></script>
+    <script src="./gen.js"></script>
     <script src="./lengPage.js"></script>
     <script src="./CodeWithDW.js"></script>
     <script src="./footerCopy.js"></script>
