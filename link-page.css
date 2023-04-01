@@ -362,7 +362,7 @@ td {
     margin: 4em 0 1em 0;
 }
 
-.line {
+.pageLine {
     height: 5px;
     background-color: var(--response-content-red);
     width: 40%;
