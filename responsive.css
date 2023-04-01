@@ -144,7 +144,7 @@
         font-size: .7em
     }
 
-    .line {
+    .pageLine {
         width: 40%;
     }
 }
@@ -342,7 +342,7 @@
         width: 93vw
     }
 
-    .line {
+    .pageLine {
         width: 40%;
     }
 }
