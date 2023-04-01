@@ -191,13 +191,13 @@ article>p {
     width: 80vw;
     background-color: var(--royal-blue);
     padding: 2vw 1vw;
-    border-radius: 15px;
-    margin: var(--MP-tb-1vw);
     color: var(--white);
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    margin: var(--MP-tb-1vw);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .leng-code>h3 {
@@ -352,4 +352,23 @@ td {
     margin: 1em 0;
     background-color: var(--imp-txt);
     font-weight: 600;
+}
+
+.endingTopicLine {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4em 0 1em 0;
+}
+
+.line {
+    height: 5px;
+    background-color: var(--response-content-red);
+    width: 40%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }

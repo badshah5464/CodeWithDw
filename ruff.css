@@ -65,6 +65,12 @@
     width: 40vw;
 }
 
+.appStructure>img {
+    width: 30vw;
+    box-shadow: var(--boxShadow-black-outset);
+    margin: 1em 0;
+}
+
 @media screen and (max-width:600px) {
     .structure {
         margin: .5em;

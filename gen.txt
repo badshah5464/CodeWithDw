@@ -1,0 +1,35 @@
+Code with Output : [
+                <section class="leng-code">
+                    <pre class="myCode">
+                        <code class="language-JavaScript">
+                            document.getElementById("demo").innerHTML="Hello World!"; 
+                        </code>
+                    </pre>
+
+                    <section class="outputResult">
+                        <div class="output">
+                        <!--! output id name -->
+                            <button class="a-btn" onclick="showOutput(event , '|||||')">Output</button>
+                        </div>
+                        <!--! Enter here output id -->
+                        <div class="result" id="|||||">
+                            <span onclick="this.parentElement.style.display='none'">
+                                <div class="cancelBar">
+                                    <div class="bar01"></div>
+                                    <div class="bar02"></div>
+                                </div>
+                            </span>
+                            <div class="showOutput">
+                                <!--! Write Output -->
+                            </div>
+                        </div>
+                    </section>
+                </section>
+];
+
+Add all html file this last code [
+    <section class="endingTopicLine">
+        <div class="line"></div>
+        <div class="line"></div>
+    </section>
+]

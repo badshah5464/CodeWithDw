@@ -1,7 +1,12 @@
 const reactPageLink = [{
-    link: "./React-App-Install-01.html",
-    pageName: "React App Install"
-}, ];
+        link: "./React-App-Install-01.html",
+        pageName: "React App Install"
+    },
+    {
+        link: "./react-app-structure-02.html",
+        pageName: "React App Structure"
+    },
+];
 
 let reactLink = document.getElementById("reactLink");
 reactPageLink.map(function (x) {

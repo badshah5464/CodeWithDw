@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/010f924f62.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./OnlyDW-MetalPNG.png" />
     <title>
-        React App Install Method
+        React App Structure
     </title>
     <link rel="stylesheet" href="./CodeWithDW.css" />
     <link rel="stylesheet" href="./headerAndFooter.css" />
@@ -100,7 +100,7 @@
             <section class="linkPageAside">
                 <div class="aside-heading">
                     <!--! Enter PageLink Heading  -->
-                    <h2>React Method's</h2>
+                    <h2>React App Structure</h2>
                 </div>
                 <div class="page-link">
                     <!--! PageLink is here. enter here id and get page's.-->
@@ -108,21 +108,21 @@
                 </div>
             </section>
         </aside>
+
         <section class="page-topic">
             <!--! Topic Heading -->
-            <h2>React Introduction</h2>
+            <h2>React App File Structure</h2>
             <hr class="hr-simple" />
             <section class="forword-back-btn">
                 <div class="back-next-btn hint">
-                    <div class="_hint"><a href="./index.html"><i class="fas fa-angle-left"></i>Back</a>
+                    <div class="_hint"><a href="./React-App-Install-01.html"><i class="fas fa-angle-left"></i>Back</a>
                         <div class="_sugest">
-                            <p>Back to home</p>
+                            <p>Go Back</p>
                         </div>
                     </div>
                 </div>
                 <div class="back-next-btn hint">
-                    <div class="_hint"><a href="./react-app-structure-02.html">Next <i
-                                class="fas fa-angle-right"></i></a>
+                    <div class="_hint"><a href="||||||">Next <i class="fas fa-angle-right"></i></a>
                         <div class="_sugest">
                             <p>Next Topic</p>
                         </div>
@@ -131,36 +131,83 @@
             </section>
             <!--! Code Is Here  -->
             <section class="codeIsHere">
-                <h2>First step is create new folder in your desktop :</h2>
-                <div class="reactExampleImg">
-                    <img src="./ReactCreateFolder.png" alt="Create New Folder">
+
+                <p>In this application total 2 main Folder <mark>public</mark> & <mark>src</mark>.</p>
+                <div class="appStructure">
+                    <img src="./ReactAllFile.png" alt="React file end folder">
                 </div>
-                <p>Open this folder in ur corder software. <sub>(Visual Studio Code : <a
-                            href="https://code.visualstudio.com/" target="_blank">Download</a>)</sub></p>
                 <hr class="hr-simple">
-                <h2>Install react app with this command.</h2>
+                <h2>public folder :</h2>
+                <p>index.html file inside public folder.</p>
+                <div class="notice">
+                    Do not write in index.html file.
+                </div>
+                <p>Open index.html file end show <mark>&lt;body&gt;</mark> &gt; <mark>&lt;div
+                        id="root"&gt;&lt;/div&gt;</mark> get all component with the root id.</p>
+                <hr class="hr-simple">
+                <h2>src folder :</h2>
+                <h3>index.js :</h3>
+                <p>index.html inside root id get in this file.</p>
+                <h3>App.js</h3>
+                <p>app.js file is main file. all components import in this file end connect.</p>
+                <div class="notice">
+                    <h2>Do not delete file:</h2>
+                    <p><span class="bold-600">public folder : </span><mark>index.html</mark> ,
+                        <mark>manifest.json</mark> , <mark>robots.txt</mark>
+                    </p>
+                    <p><span class="bold-600">src folder : </span><mark>App.js</mark> , <mark>App.test.js</mark> ,
+                        <mark>index.js</mark> , <mark>reportWebVitals.js</mark> , <mark>setupTests.js</mark>
+                    </p>
+                    <p><span class="bold-600">package-lock.json & package.json : </span>Install any external page's to
+                        setup inside this file package-lock.json & package.json. <mark>Do Not Delete</mark></p>
+                </div>
+                <hr class="hr-simple">
+                <h2>node_modules folder :</h2>
+                <p>This folder is running react app end all.</p>
+                <p>Yes you can delete this folder. like compleat your project , share with another developer or client
+                    at this time delete folder.</p>
+                <p>delete before again continue project end working this app to reinstall node_modules.</p>
+                <hr class="hr-simple">
+                <h2>How to reinstall node_modules ? : </h2>
+                <p>go your react app path</p>
+                section.
+                <section class="leng-code">
+                    <pre class="myCode">
+                        <code class="language-code">PS C:\Users\admin\OneDrive\Desktop\CodeWithDw ReactLanguage> cd myapp</code>
+                    </pre>
+
+                    <section class="outputResult">
+                        <div class="output">
+                            <!--! output id name -->
+                            <button class="a-btn" onclick="showOutput(event , 'selectPath')">Output</button>
+                        </div>
+                        <!--! Enter here output id -->
+                        <div class="result" id="selectPath">
+                            <span onclick="this.parentElement.style.display='none'">
+                                <div class="cancelBar">
+                                    <div class="bar01"></div>
+                                    <div class="bar02"></div>
+                                </div>
+                            </span>
+                            <div class="showOutput"
+                                style="background-color: black; color: white; padding: 1em .5em; width: fit-content;">
+                                PS C:\Users\admin\OneDrive\Desktop\CodeWithDw ReactLanguage\myapp>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <p class="bold">Enter this command to reinstall <mark>node_modules</mark></p>
                 <pre class="myCode">
                     <code class="language-code">
-                        npx create-react-app myapp
+                        npm install react-modules
                     </code>
                 </pre>
-                <div class="reactExampleImg">
-                    <img src="./enterCommandExImg.png" alt="vsCodeTerminal">
-                </div>
-                <p>Enter this command in <mark>terminal</mark> at your corder software.</p>
-                <div class="imp-txt">
-                    <h2>How to know react app is successfully install !</h2>
-                    <p>Automatically installing this process. installing process is depend your system & processor.</p>
-                    <p><mark>happy hacking</mark> last this line to show. it means react app is successfully installed.
-                    </p>
-                    <div class="installingDone">
-                        <img src="./happyHacking.png" alt="install React app">
-                    </div>
-                </div>
-
             </section>
             <!--! /Code Is Here  -->
-            <hr class="hr-simple">
+            <section class="endingTopicLine">
+                <div class="line"></div>
+                <div class="line"></div>
+            </section>
         </section>
     </main>
     <footer class="index-footer" id="footer"></footer>
@@ -174,10 +221,10 @@
         </div>
     </section>
 
+    <script src="./linkPageReact.js"></script>
     <script src="./search.js"></script>
     <script src="./AllLengMenu.js"></script>
     <script src="./gen.js"></script>
-    <script src="./linkPageReact.js"></script>
     <script src="./lengPage.js"></script>
     <script src="./CodeWithDW.js"></script>
     <script src="./footerCopy.js"></script>

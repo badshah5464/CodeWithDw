@@ -20,9 +20,14 @@ const menuJavaScript = [{
     pageName: "Basic of JavaScript"
 }];
 const menuReact = [{
-    link: "./React-App-Install-01.html",
-    pageName: "React App Install Method"
-}];
+        link: "./React-App-Install-01.html",
+        pageName: "React App Install Method"
+    },
+    {
+        link: "./react-app-structure-02.html",
+        pageName: "React App Structure"
+    },
+];
 const menuAdvanceMethod = [{
     link: "./AdvanceMethod.html",
     pageName: "Upload Internal image in page."
