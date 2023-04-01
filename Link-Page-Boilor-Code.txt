@@ -97,7 +97,7 @@
     </header>
     <main class="linked-page">
         <aside class="joinResponseAside">
-            <section class="linkPageAside">
+            <section class="linkPageAside" id="linkPageAside">
                 <div class="aside-heading">
                     <!--! Enter PageLink Heading  -->
                     <h2>PageLink Heading</h2>

@@ -30,7 +30,7 @@ pre[class*="language-"],
 
 pre[class*="language-"] {
     border: 2px dashed wheat;
-    overflow: hidden;
+    overflow: auto;
     font-family: 'Tilt Warp', cursive;
     border-radius: .5em;
     -webkit-border-radius: .5em;
