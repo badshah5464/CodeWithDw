@@ -51,29 +51,29 @@
 .reactExampleImg>img {
     width: 50vw;
     box-shadow: var(--boxShadow-black-outset);
-    margin: 1em 0;
+    margin: 1em 0
 }
 
 .installingDone {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1em 0 0 0;
+    margin: 1em 0 0 0
 }
 
 .installingDone>img {
-    width: 40vw;
+    width: 40vw
 }
 
 .appStructure>img {
     width: 30vw;
     box-shadow: var(--boxShadow-black-outset);
-    margin: 1em 0;
+    margin: 1em 0
 }
 
 @media screen and (max-width:850px) {
     .appStructure>img {
-        width: 50vw;
+        width: 50vw
     }
 }
 
@@ -95,14 +95,14 @@
     .reactExampleImg>img {
         width: 93vw;
         box-shadow: var(--boxShadow-black-outset);
-        margin: 1em 0;
+        margin: 1em 0
     }
 
     .installingDone>img {
-        width: 80vw;
+        width: 80vw
     }
 
     .appStructure>img {
-        width: 80vw;
+        width: 80vw
     }
 }

@@ -29,7 +29,7 @@ Code with Output : [
 
 Add all html file this last code [
     <section class="endingTopicLine">
-        <div class="line"></div>
-        <div class="line"></div>
+        <div class="pageLine"></div>
+        <div class="pageLine"></div>
     </section>
 ]

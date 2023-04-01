@@ -173,7 +173,7 @@
                 section.
                 <section class="leng-code">
                     <pre class="myCode">
-                        <code class="language-code">PS C:\Users\admin\OneDrive\Desktop\CodeWithDw ReactLanguage> cd myapp</code>
+                        <code class="language-js">PS C:\Users\admin\OneDrive\Desktop\CodeWithDw ReactLanguage> cd myapp</code>
                     </pre>
 
                     <section class="outputResult">
@@ -182,24 +182,30 @@
                             <button class="a-btn" onclick="showOutput(event , 'selectPath')">Output</button>
                         </div>
                         <!--! Enter here output id -->
-                        <div class="result" id="selectPath">
+                        <div class="result" id="selectPath" style="padding: 0;">
                             <span onclick="this.parentElement.style.display='none'">
-                                <div class="cancelBar">
-                                    <div class="bar01"></div>
-                                    <div class="bar02"></div>
+                                <div class="cancelBar" style="margin: 1em;">
+                                    <div class="bar01" style="background-color: white;"></div>
+                                    <div class="bar02" style="background-color: white;"></div>
                                 </div>
                             </span>
-                            <div class="showOutput"
-                                style="background-color: black; color: white; padding: 1em .5em; width: fit-content;">
-                                PS C:\Users\admin\OneDrive\Desktop\CodeWithDw ReactLanguage\myapp>
+                            <div class="showOutput" style="background-color: black; color: white; padding: 1em .5em;">
+                                PS C:\Users\admin\OneDrive\Desktop\CodeWithDw ReactLanguage\myapp> npm command
                             </div>
                         </div>
                     </section>
                 </section>
                 <p class="bold">Enter this command to reinstall <mark>node_modules</mark></p>
                 <pre class="myCode">
-                    <code class="language-code">
+                    <code class="language-js">
                         npm install react-modules
+                    </code>
+                </pre>
+                <hr class="hr-simple">
+                <h2>Start react app local host in browser.</h2>
+                <pre class="myCode">
+                    <code class="language-js">
+                        npm run start
                     </code>
                 </pre>
             </section>
