@@ -77,9 +77,19 @@
     margin: 1em 0
 }
 
+.pageImgWidth60vw>img {
+    width: 60vw;
+    box-shadow: var(--boxShadow-black-outset);
+    margin: 1em 0;
+}
+
 @media screen and (max-width:850px) {
     .appStructure>img {
         width: 50vw
+    }
+
+    .pageImgWidth60vw>img {
+        width: 60vw;
     }
 }
 
@@ -110,5 +120,9 @@
 
     .appStructure>img {
         width: 80vw
+    }
+
+    .pageImgWidth60vw>img {
+        width: 90vw;
     }
 }
