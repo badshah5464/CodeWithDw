@@ -28,12 +28,8 @@ const menuReact = [{
     pageName: "React App Structure"
 },
 {
-    link: "./react-app-start-03.html",
-    pageName: "App Start"
-},
-{
-    link: "./react-app-about-AppJs-04.html",
-    pageName: "About App.js"
+    link: "./react-app-about-AppJs-03.html",
+    pageName: "About App.js & app start command."
 }
 ];
 const menuAdvanceMethod = [{
