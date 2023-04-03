@@ -36,6 +36,10 @@ const addMenu = document.getElementById("addMenu"),
   {
     link: "./react-component-04.html",
     pageName: "Component's & Import Export Method"
+  },
+  {
+    link: "./react-BrowserRouter-05.html",
+    pageName: "BrowserRouter Dom"
   }
   ];
 

@@ -19,6 +19,7 @@ const menuJavaScript = [{
   link: "./JavaScript-Basic-01.html",
   pageName: "Basic of JavaScript"
 }];
+
 const menuReact = [{
   link: "./React-App-Install-01.html",
   pageName: "React App Install Method"
@@ -34,8 +35,13 @@ const menuReact = [{
 {
   link: "./react-component-04.html",
   pageName: "Component's & Import Export Method"
+},
+{
+  link: "./react-BrowserRouter-05.html",
+  pageName: "BrowserRouter Dom"
 }
 ];
+
 const menuAdvanceMethod = [{
   link: "./AdvanceMethod.html",
   pageName: "Upload Internal image in page."
