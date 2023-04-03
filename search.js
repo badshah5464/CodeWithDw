@@ -32,6 +32,10 @@ const addMenu = document.getElementById("addMenu"),
   {
     link: "./react-app-about-AppJs-03.html",
     pageName: "React App start command"
+  },
+  {
+    link: "./react-component-04.html",
+    pageName: "Component's"
   }
   ];
 
