@@ -64,7 +64,7 @@ span.mark,
   --mark: hsla(0, 0%, 36%, .5);
   --searchIcon-bg: hsla(0, 100%, 80%, .5);
   --overlay-bg: rgba(197, 197, 255, .95);
-  --imp-txt: pink
+  --imp-txt: pink;
 }
 
 .darkMode {

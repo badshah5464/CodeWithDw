@@ -72,7 +72,7 @@
 }
 
 .npm-start-img>img {
-  width: 30vw;
+  width: 40vw;
   box-shadow: var(--boxShadow-black-outset);
   margin: 1em 0
 }
@@ -83,6 +83,12 @@
   margin: 1em 0;
 }
 
+@media screen and (max-width:1350px) {
+  .npm-start-img>img {
+    width: 50vw;
+  }
+}
+
 @media screen and (max-width:850px) {
   .appStructure>img {
     width: 50vw
@@ -90,6 +96,10 @@
 
   .pageImgWidth60vw>img {
     width: 60vw;
+  }
+
+  .npm-start-img>img {
+    width: 70vw;
   }
 }
 
@@ -123,6 +133,10 @@
   }
 
   .pageImgWidth60vw>img {
+    width: 90vw;
+  }
+
+  .npm-start-img>img {
     width: 90vw;
   }
 }
