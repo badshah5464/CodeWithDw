@@ -121,7 +121,7 @@ a {
   --ubuntu: 'Ubuntu', sans-serif;
   --prompt: 'Prompt', sans-serif;
   --martian-mono: 'Martian Mono', monospace;
-  --response-content-red: red;
+  --response-content-red: rgb(255, 50, 50);
   --boxShadow-white-outset: 0 0 5px white;
   --border-3pxSolid-red: 3px solid red;
   --border-2pxDashed-red: 2px dashed red;
