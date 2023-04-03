@@ -33,7 +33,7 @@ const menuReact = [{
 },
 {
   link: "./react-component-04.html",
-  pageName: "Component's"
+  pageName: "Component's & Import Export Method"
 }
 ];
 const menuAdvanceMethod = [{

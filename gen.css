@@ -27,8 +27,12 @@ mark {
 span.mark,
 .mark {
   background-color: var(--mark);
-  padding: 3px;
+  padding: 1px 2px;
   width: fit-content;
+}
+
+a {
+  color: var(--a-color);
 }
 
 :root {
@@ -65,6 +69,7 @@ span.mark,
   --searchIcon-bg: hsla(0, 100%, 80%, .5);
   --overlay-bg: rgba(197, 197, 255, .95);
   --imp-txt: pink;
+  --a-color: blue;
 }
 
 .darkMode {
@@ -100,7 +105,8 @@ span.mark,
   --mark: hsla(0, 0%, 100%, .5);
   --searchIcon-bg: hsla(0, 0%, 100%, .5);
   --overlay-bg: rgb(2, 0, 26, .95);
-  --imp-txt: rgb(80, 0, 80)
+  --imp-txt: rgb(80, 0, 80);
+  --a-color: rgb(255, 55, 55);
 }
 
 :root {
@@ -133,7 +139,7 @@ span.mark,
   --MP-tb-1em: 1em 0;
   --MP-tb-1vh: 1vh 0;
   --MP-tb-1vw: 1vw 0;
-  --MP-btn-01: 1vw 1.5vw
+  --MP-btn-01: 1vw 1.5vw;
 }
 
 .m-tb-1em {

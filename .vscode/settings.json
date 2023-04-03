@@ -10,7 +10,7 @@
     "files.autoSave": "onFocusChange",
     "editor.wordWrap": "off",
     "editor.accessibilityPageSize": 10,
-    "editor.fontFamily": "'Rubik',sans-sarif",
+    "editor.fontFamily": "'Exo 2', sans-serif",
     "editor.detectIndentation": false,
     "editor.experimental.asyncTokenization": false
 }

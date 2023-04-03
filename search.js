@@ -35,7 +35,7 @@ const addMenu = document.getElementById("addMenu"),
   },
   {
     link: "./react-component-04.html",
-    pageName: "Component's"
+    pageName: "Component's & Import Export Method"
   }
   ];
 

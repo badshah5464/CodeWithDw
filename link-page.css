@@ -202,8 +202,8 @@ article>p {
 
 .leng-code>h3 {
   text-transform: uppercase;
-  color: var(--black);
-  font-family: var(--header-heading)
+  color: var(--white);
+  font-family: var(--sono)
 }
 
 .myCode {
@@ -349,8 +349,8 @@ td {
 }
 
 .imp-txt {
-  padding: 3em 2em;
-  margin: 1em 0;
+  padding: 2em 1.5em;
+  margin: .5em 0;
   background-color: var(--imp-txt);
   font-weight: 600
 }
@@ -372,4 +372,8 @@ td {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%
+}
+
+.codeIsHere>p {
+  line-height: 1.3em;
 }
