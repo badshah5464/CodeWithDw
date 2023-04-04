@@ -26,10 +26,3 @@ Code with Output : [
                     </section>
                 </section>
 ];
-
-Add all html file this last code [
-    <section class="endingTopicLine">
-        <div class="pageLine"></div>
-        <div class="pageLine"></div>
-    </section>
-]

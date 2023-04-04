@@ -40,6 +40,10 @@ const addMenu = document.getElementById("addMenu"),
   {
     link: "./react-BrowserRouter-05.html",
     pageName: "BrowserRouter Method"
+  },
+  {
+    link: "./react-propsMethod-06.html",
+    pageName: "Props Method"
   }
   ];
 

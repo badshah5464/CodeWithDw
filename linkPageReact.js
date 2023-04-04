@@ -17,6 +17,10 @@ const reactPageLink = [{
 {
   link: "./react-BrowserRouter-05.html",
   pageName: "BrowserRouter Method"
+},
+{
+  link: "./react-propsMethod-06.html",
+  pageName: "Props Method"
 }
 ];
 
