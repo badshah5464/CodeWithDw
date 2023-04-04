@@ -16,7 +16,7 @@ const reactPageLink = [{
 },
 {
   link: "./react-BrowserRouter-05.html",
-  pageName: "BrowserRouter Dom"
+  pageName: "BrowserRouter Method"
 }
 ];
 

@@ -147,12 +147,14 @@
       </aside>
       <section class="page-topic">
         <!--! Topic Heading -->
-        <h2>Topic Heading</h2>
+        <h2>BrowserRouter Method</h2>
         <hr class="hr-simple" />
         <section class="forword-back-btn">
           <div class="back-next-btn hint">
             <div class="_hint">
-              <a href="./index.html"><i class="fas fa-angle-left"></i>Back</a>
+              <a href="./react-component-04.html"
+                ><i class="fas fa-angle-left"></i>Back</a
+              >
               <div class="_sugest">
                 <p>Back to home</p>
               </div>
@@ -183,8 +185,57 @@
           <hr class="hr-simple" />
           <h2>install BrowserRouter Dom with terminal :</h2>
           <div class="leng-code-bg-none">
-            <pre class="myCode"><code class="language-js">npm react-router-dom</code></pre>
+            <pre
+              class="myCode"
+            ><code class="language-js">npm i react-router-dom</code></pre>
           </div>
+          <hr class="hr-simple" />
+          <h2>Setup BrowserRouter</h2>
+          <section class="leng-code">
+            <h3>App.js</h3>
+            <pre
+              class="myCode"
+            ><code class="language-js" id="browserRouterAppJs"></code></pre>
+            <hr class="hr-simple" />
+            <h3>Navlink.js (for navigation file or header)</h3>
+            <pre
+              class="myCode"
+            ><code class="language-js" id="browserRouterHeaderJs"></code></pre>
+          </section>
+          <hr class="hr-simple" />
+          <h2>App.js</h2>
+          <ul style="margin: 0 2em">
+            <li>
+              import { BrowserRouter, Routes, Route } from "react-router-dom";
+            </li>
+            <li>import all components file path.</li>
+            <li>
+              function inside use this tag
+              <span class="mark">&lt;BrowserRouter&gt;</span> &gt;
+              <span class="mark">&lt;Routes&gt;</span> &gt;
+              <span class="mark">&lt;Route&gt;</span>
+            </li>
+            <li>
+              <span class="bold-600">Route : </span>path & element<br />
+              <span class="bold-600">path : </span>using file name<br />
+              <span class="bold-600">element : </span>use tag (<span
+                class="mark"
+                >&lt;About /&gt;</span
+              >)
+            </li>
+          </ul>
+          <h2>Navigation.js</h2>
+          <ul style="margin: 2em">
+            <li>
+              <span class="bold-600">NavLink : </span>Use like (<span
+                class="mark"
+                >&lt;a href=""&gt;&lt;/a&gt;</span
+              >) <span class="mark">a</span> replace with
+              <span class="mark">NavLink</span> ,
+              <span class="mark">href=""</span> replace with
+              <span class="mark">to=""</span>
+            </li>
+          </ul>
         </section>
         <!--! /Code Is Here  -->
         <section class="endingTopicLine">
@@ -218,5 +269,46 @@
     <script src="./lengPage.js"></script>
     <script src="./CodeWithDW.js"></script>
     <script src="./footerCopy.js"></script>
+    <script>
+      document.getElementById("browserRouterAppJs").innerHTML = `
+import Navigation from "./components/js/Navigation" 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/js/Home'
+import NextPage from './components/js/NextPage';
+import About from './components/js/About';
+
+function App() {
+  return (
+    &LT;BrowserRouter&GT;
+      &LT;Navigation /&GT;
+      &LT;Routes&GT;
+        &LT;Route path='/' element={&LT;Home /&GT;} /&GT;
+        &LT;Route path='NextPage' element={&LT;NextPage /&GT;}&GT;&LT;/Route&GT;
+        &LT;Route path='About' element={&LT;About /&GT;}&GT;&LT;/Route&GT;
+      &LT;/Routes&GT;
+    &LT;/BrowserRouter&GT;
+  );
+}
+
+export default App;
+      `;
+
+      document.getElementById("browserRouterHeaderJs").innerHTML = `
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+function Navigation() {
+  return (
+    &LT;div&GT;
+      &LT;NavLink to='/'&GT;Home&LT;/NavLink&GT;
+      &LT;NavLink to='NextPage'&GT;NextPage&LT;/NavLink&GT;
+      &LT;NavLink to='About'&GT;AboutPage&LT;/NavLink&GT;
+    &LT;/div&GT;
+  )
+}
+
+export default Navigation
+      `;
+    </script>
   </body>
 </html>

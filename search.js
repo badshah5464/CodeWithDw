@@ -39,7 +39,7 @@ const addMenu = document.getElementById("addMenu"),
   },
   {
     link: "./react-BrowserRouter-05.html",
-    pageName: "BrowserRouter Dom"
+    pageName: "BrowserRouter Method"
   }
   ];
 
