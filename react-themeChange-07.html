@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="icon" href="./OnlyDW-MetalPNG.png" />
-    <title>Props Method</title>
+    <title><!--Enter WebPage title--></title>
     <link rel="stylesheet" href="./CodeWithDW.css" />
     <link rel="stylesheet" href="./headerAndFooter.css" />
     <link rel="stylesheet" href="./gen.css" />
@@ -18,14 +18,17 @@
     <link rel="stylesheet" href="search.css" />
     <link rel="stylesheet" href="./ruff.css" />
     <style>
-      #reactLink > li:nth-child(6) > a {
+      #reactLink > li:nth-child(7) > a {
         color: var(--response-content-red);
       }
     </style>
   </head>
+
   <body class="index-body">
     <header class="index-header">
-      <section class="header-heading"><p>CodeWithDW.pvt</p></section>
+      <section class="header-heading">
+        <p>CodeWithDW.pvt</p>
+      </section>
       <nav>
         <div class="logo">
           <div class="logo-img"><img src="./OnlyDW-MetalPNG.png" alt="" /></div>
@@ -86,6 +89,7 @@
             <i class="fas fa-bars-staggered"></i>
           </div>
         </section>
+        <!-- ! Menu (About : Language to select direct page) -->
         <section class="menuListSection">
           <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
@@ -94,15 +98,25 @@
             <div class="overlay-content">
               <div class="LengOptions">
                 <button class="accordion">HTML</button>
-                <div class="panel"><ul id="lengCodeDetailHTML"></ul></div>
+                <div class="panel">
+                  <ul id="lengCodeDetailHTML"></ul>
+                </div>
                 <button class="accordion">CSS</button>
-                <div class="panel"><ul id="lengCodeDetailCSS"></ul></div>
+                <div class="panel">
+                  <ul id="lengCodeDetailCSS"></ul>
+                </div>
                 <button class="accordion">JavaScript</button>
-                <div class="panel"><ul id="lengCodeDetailJavaScript"></ul></div>
+                <div class="panel">
+                  <ul id="lengCodeDetailJavaScript"></ul>
+                </div>
                 <button class="accordion">React</button>
-                <div class="panel"><ul id="lengCodeDetailReact"></ul></div>
+                <div class="panel">
+                  <ul id="lengCodeDetailReact"></ul>
+                </div>
                 <button class="accordion">NodeJs</button>
-                <div class="panel"><ul id="lengCodeDetailNodeJs"></ul></div>
+                <div class="panel">
+                  <ul id="lengCodeDetailNodeJs"></ul>
+                </div>
                 <button class="accordion">Advance Method's</button>
                 <div class="panel">
                   <ul id="lengCodeDetailAdvanceMethod"></ul>
@@ -112,6 +126,7 @@
           </div>
           <div class="openNav" onclick="openNav()">Menu</div>
         </section>
+        <!--! /  -->
         <div class="goToTop">
           <a href="#"><i class="fas fa-upload"></i></a>
         </div>
@@ -120,48 +135,45 @@
     <main class="linked-page">
       <aside class="joinResponseAside">
         <section class="linkPageAside" id="linkPageAside">
-          <div class="aside-heading"><h2>React Method's</h2></div>
-          <div class="page-link"><ul id="reactLink"></ul></div>
+          <div class="aside-heading">
+            <!--! Enter PageLink Heading  -->
+            <h2>React Method</h2>
+          </div>
+          <div class="page-link">
+            <!--! PageLink is here. enter here id and get page's.-->
+            <ul id="reactLink"></ul>
+          </div>
         </section>
       </aside>
       <section class="page-topic">
-        <h2>Props Method :</h2>
+        <!--! Topic Heading -->
+        <h2>Theme Change</h2>
         <hr class="hr-simple" />
         <section class="forword-back-btn">
           <div class="back-next-btn hint">
             <div class="_hint">
-              <a href="./react-BrowserRouter-05.html"
+              <a href="react-propsMethod-06.html"
                 ><i class="fas fa-angle-left"></i>Back</a
               >
-              <div class="_sugest"><p>Back to home</p></div>
+              <div class="_sugest">
+                <p>Back to home</p>
+              </div>
             </div>
           </div>
           <div class="back-next-btn hint">
             <div class="_hint">
-              <a href="./react-themeChange-07.html"
-                >Next <i class="fas fa-angle-right"></i
-              ></a>
-              <div class="_sugest"><p>Next Page</p></div>
+              <a href="||||||">Next <i class="fas fa-angle-right"></i></a>
+              <div class="_sugest">
+                <p>Next Page</p>
+              </div>
             </div>
           </div>
         </section>
+        <!--! Code Is Here  -->
         <section class="codeIsHere">
-          <section class="leng-code">
-            <h3>Header.js</h3>
-            <pre
-              class="myCode"
-            ><code class="language-js" id="propsMethodHeader"></code></pre>
-            <hr class="hr-simple" />
-            <h3>App.js</h3>
-            <pre
-              class="myCode"
-            ><code class="language-js" id="propsMethodAppJs"></code></pre>
-          </section>
-          <p>
-            <span class="bold-600">props : </span>Define link by link
-            components.
-          </p>
+          
         </section>
+        <!--! /Code Is Here  -->
         <section class="endingTopicLine">
           <div class="pageLine"></div>
           <div class="pageLine"></div>
@@ -192,35 +204,5 @@
     <script src="./lengPage.js"></script>
     <script src="./CodeWithDW.js"></script>
     <script src="./footerCopy.js"></script>
-    <script>
-      document.getElementById("propsMethodHeader").innerHTML = `
-        import React from "React"
-
-        const Header = (Header)=> {
-          return {
-            &lt;&gt;
-              &lt;h1&gt;{Header.heading}&lt;/h1&gt;
-              &lt;p&gt;{Header.paragraph}&lt;/p&gt;
-            &lt;/&gt;
-          }
-        }
-
-        export default Header
-      `;
-
-      document.getElementById("propsMethodAppJs").innerHTML = `
-        import Header from "./Components/js/Header"
-
-        function App() {
-          return (
-            &lt;&gt;
-              &lt;Header heading="This is a heading" /&gt;
-            &lt;/&gt;
-          );
-        }
-
-        export default App;
-      `;
-    </script>
   </body>
 </html>

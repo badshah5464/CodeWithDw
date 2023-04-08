@@ -43,6 +43,10 @@ const menuReact = [{
 {
   link: "./react-propsMethod-06.html",
   pageName: "Props Method"
+},
+{
+  link: "./react-themeChange-07.html",
+  pageName: "Theme change in react"
 }
 ];
 
