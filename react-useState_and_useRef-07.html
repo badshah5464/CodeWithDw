@@ -171,7 +171,13 @@
         </section>
         <!--! Code Is Here  -->
         <section class="codeIsHere">
-          
+          <h2>useRef() Method :</h2>
+          <section class="leng-code">
+            <h3>Component.js</h3>
+            <pre
+              class="myCode"
+            ><code class="language-js" id="useRefComponent"></code></pre>
+          </section>
         </section>
         <!--! /Code Is Here  -->
         <section class="endingTopicLine">
@@ -204,5 +210,26 @@
     <script src="./lengPage.js"></script>
     <script src="./CodeWithDW.js"></script>
     <script src="./footerCopy.js"></script>
+    <script>
+      document.getElementById("useRefComponent").innerHTML = `
+import React, { useRef } from 'react'
+
+function Component() {
+  const demo = useRef()
+  const btn = ()=&GT; {
+    demo.current.style.color = 'red'
+  }
+
+  return (
+    &LT;&GT;
+      &LT;p ref={demo}&GT;This is a paragraph.&LT;/p&GT;
+      &LT;button onClick={btn}&GT;Click&LT;/button&GT;
+    &LT;/&GT;
+  )
+}
+
+export default Component
+      `;
+    </script>
   </body>
 </html>

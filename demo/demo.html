@@ -1,14 +1,19 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useRef } from 'react'
 
-function Navigation() {
+function Component() {
+
+  const demo = useRef()
+
+  const btn = () =&GT; {
+    demo.current.style.color = 'red'
+  }a
+
   return (
-    &LT;div&GT;
-      &LT;NavLink to='/'&GT;Home&LT;/NavLink&GT;
-      &LT;NavLink to='NextPage'&GT;NextPage&LT;/NavLink&GT;
-      &LT;NavLink to='About'&GT;AboutPage&LT;/NavLink&GT;
-    &LT;/div&GT;
+    &LT;&GT;
+      &LT;p ref={demo}&GT;This is a paragraph.&LT;/p&GT;
+      &LT;button onClick={btn}&GT;Click&LT;/button&GT;
+    &LT;/&GT;
   )
 }
 
-export default Navigation
+export default Component
