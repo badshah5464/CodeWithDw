@@ -45,8 +45,8 @@ const menuReact = [{
   pageName: "Props Method"
 },
 {
-  link: "./react-themeChange-07.html",
-  pageName: "Theme change in react"
+  link: "./react-useState_and_useRef-07.html",
+  pageName: "useState() & useRef Method"
 }
 ];
 

@@ -1,54 +1,73 @@
-//! Search Input 
+//! Search Input
 const addMenu = document.getElementById("addMenu"),
   searchValue = [{
     link: "./HTML-Home-01.html",
-    pageName: "HTML Basic"
-  }, {
+    pageName: "HTML Basic",
+  },
+  {
     link: "./html-introduction-02.html",
-    pageName: "HTML introduction"
-  }, {
+    pageName: "HTML introduction",
+  },
+  {
     link: "./html-Editor-03.html",
-    pageName: "HTML Editor"
-  }, {
+    pageName: "HTML Editor",
+  },
+  {
     link: "./CSS-Basic-01.html",
-    pageName: "CSS Tutorial"
-  }, {
+    pageName: "CSS Tutorial",
+  },
+  {
     link: "./JavaScript-Basic-01.html",
-    pageName: "Basic of JavaScript"
-  }, {
+    pageName: "Basic of JavaScript",
+  },
+  {
     link: "./AdvanceMethod.html",
-    pageName: "All Method's"
-  }, {
+    pageName: "All Method's",
+  },
+  {
     link: "./React-App-Install-01.html",
-    pageName: "React App Install"
-  }, {
+    pageName: "React App Install",
+  },
+  {
     link: "./react-app-structure-02.html",
-    pageName: "React App Structure"
+    pageName: "React App Structure",
   },
   {
     link: "./react-app-about-AppJs-03.html",
-    pageName: "About App.js & app start command."
+    pageName: "About App.js & app start command.",
   },
   {
     link: "./react-app-about-AppJs-03.html",
-    pageName: "React App start command"
+    pageName: "React App start command",
   },
   {
     link: "./react-component-04.html",
-    pageName: "Component's & Import Export Method"
+    pageName: "Component's & Import Export Method",
   },
   {
     link: "./react-BrowserRouter-05.html",
-    pageName: "BrowserRouter Method"
+    pageName: "BrowserRouter Method",
   },
   {
     link: "./react-propsMethod-06.html",
-    pageName: "Props Method"
+    pageName: "Props Method",
   },
   {
-    link: "./react-themeChange-07.html",
-    pageName: "Theme change in react"
-  }
+    link: "./react-useState_and_useRef-07.html",
+    pageName: "useState() & useRef() Method",
+  },
+  {
+    link: "./react-useState_and_useRef-07.html",
+    pageName: "useState() react",
+  },
+  {
+    link: "./react-useState_and_useRef-07.html",
+    pageName: "useRef() react",
+  },
+  {
+    link: "./react-useState_and_useRef-07.html",
+    pageName: "Theme Change With useState() Method",
+  },
   ];
 
 const searchIcon = document.getElementById("searchIcon"),
@@ -57,10 +76,23 @@ const searchIcon = document.getElementById("searchIcon"),
 
 function searchFunction() {
   let e, s, a, n, t, c;
-  for (e = document.getElementById("search"), s = e.value.toUpperCase(), a = document.getElementsByClassName("searchMenu"), n = document.getElementsByClassName("searchList"), c = 0; c < n.length; c++) t = n[c].getElementsByClassName("item")[0], t.innerHTML.toUpperCase().indexOf(s) > -1 ? n[c].style.display = "" : n[c].style.display = "none"
+  for (
+    e = document.getElementById("search"),
+    s = e.value.toUpperCase(),
+    a = document.getElementsByClassName("searchMenu"),
+    n = document.getElementsByClassName("searchList"),
+    c = 0; c < n.length; c++
+  )
+    (t = n[c].getElementsByClassName("item")[0]),
+      t.innerHTML.toUpperCase().indexOf(s) > -1 ?
+        (n[c].style.display = "") :
+        (n[c].style.display = "none");
 }
-searchIcon.addEventListener("click", (() => {
-  "searchInput" === searchInput.className ? searchInput.className += " searchResponse" : searchInput.className = "searchInput"
-})), searchValue.map((function (e) {
-  addMenu.innerHTML += `<li class="searchList"><a href="${e.link}" class="item">${e.pageName}</a></li>`
-}));
+searchIcon.addEventListener("click", () => {
+  "searchInput" === searchInput.className ?
+    (searchInput.className += " searchResponse") :
+    (searchInput.className = "searchInput");
+}),
+  searchValue.map(function (e) {
+    addMenu.innerHTML += `<li class="searchList"><a href="${e.link}" class="item">${e.pageName}</a></li>`;
+  });
