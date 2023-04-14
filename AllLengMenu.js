@@ -1,58 +1,60 @@
 const menuHtml = [{
-  link: "./HTML-Home-01.html",
-  pageName: "Basic HTML"
-},
-{
-  link: "./html-introduction-02.html",
-  pageName: "HTML introduction"
-},
-{
-  link: "./html-Editor-03.html",
-  pageName: "HTML Editor"
-}
+    link: "./HTML-Home-01.html",
+    pageName: "Basic HTML"
+  },
+  {
+    link: "./html-introduction-02.html",
+    pageName: "HTML introduction"
+  },
+  {
+    link: "./html-Editor-03.html",
+    pageName: "HTML Editor"
+  }
 ];
+
 const menuCSS = [{
   link: "./CSS-Basic-01.html",
   pageName: "CSS Tutorial"
 }];
+
 const menuJavaScript = [{
   link: "./JavaScript-Basic-01.html",
   pageName: "Basic of JavaScript"
 }];
 
 const menuReact = [{
-  link: "./React-App-Install-01.html",
-  pageName: "React App Install Method"
-},
-{
-  link: "./react-app-structure-02.html",
-  pageName: "React App Structure"
-},
-{
-  link: "./react-app-about-AppJs-03.html",
-  pageName: "About App.js & app start command."
-},
-{
-  link: "./react-component-04.html",
-  pageName: "Component's & Import Export Method"
-},
-{
-  link: "./react-BrowserRouter-05.html",
-  pageName: "BrowserRouter Method"
-},
-{
-  link: "./react-propsMethod-06.html",
-  pageName: "Props Method"
-},
-{
-  link: "./react-useState_and_useRef-07.html",
-  pageName: "useState() & useRef Method"
-}
+    link: "./React-App-Install-01.html",
+    pageName: "React App Install Method"
+  },
+  {
+    link: "./react-app-structure-02.html",
+    pageName: "React App Structure"
+  },
+  {
+    link: "./react-app-about-AppJs-03.html",
+    pageName: "About App.js & app start command."
+  },
+  {
+    link: "./react-component-04.html",
+    pageName: "Component's & Import Export Method"
+  },
+  {
+    link: "./react-BrowserRouter-05.html",
+    pageName: "BrowserRouter Method"
+  },
+  {
+    link: "./react-propsMethod-06.html",
+    pageName: "Props Method"
+  },
+  {
+    link: "./react-useState_and_useRef-07.html",
+    pageName: "useState() & useRef Method"
+  }
 ];
 
 const menuAdvanceMethod = [{
-  link: "./AdvanceMethod.html",
-  pageName: "Upload Internal image in page."
+  link: 'AdvanceMethod-01.html',
+  pageName: 'Advance Method Home',
 }];
 
 let Menu_itemHtml = document.getElementById("lengCodeDetailHTML"),

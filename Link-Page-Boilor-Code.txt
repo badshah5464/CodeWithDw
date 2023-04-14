@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="search.css">
     <link rel="stylesheet" href="./ruff.css">
     <style>
-        #pageLink|||>li:nth-child(|||)>a {
+        /* #pageLink|||>li:nth-child(|||)>a {
             color: var(--response-content-red);
-        }
+        } */
     </style>
 </head>
 
