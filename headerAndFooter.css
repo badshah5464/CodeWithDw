@@ -40,13 +40,13 @@ nav {
   height: 3em
 }
 
-.logo-name {
+.logo-name>p {
   font-family: var(--logo-title);
   font-size: 20px;
-  font-weight: 600
 }
 
 .logo-name>p>span {
+  font-weight: 600;
   color: var(--logo-name-span)
 }
 
