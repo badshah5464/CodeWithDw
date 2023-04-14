@@ -57,7 +57,7 @@
                                     class="fa-solid fa-code"></i></span><span>Advance Method's</span></a></li>
                     <li><a href="#footer"><span class="navigation-icon"><i
                                     class="fa-solid fa-circle-info"></i></span><span>About</span></a></li>
-                    <li class="changeTheme" id="changeTheme"><img src="./MoonColor.png" width="20vw" id="changeIcon" />
+                    <li class="changeTheme" id="changeTheme"><img src="./moonColor.png" width="20vw" id="changeIcon" alt="" />
                         <p id="modeTitle">Night Mode</p>
                     </li>
                 </ul>
@@ -148,7 +148,7 @@
     </main>
     <footer class="index-footer" id="footer"></footer>
     <section class="searchBox">
-        <div class="searchIcon" id="searchIcon"><img src="./SearchIcon.png" id="searchIconChange"></div>
+        <div class="searchIcon" id="searchIcon"><img src="./SearchIcon.png" id="searchIconChange" alt="SearchIcon"></div>
         <div class="searchInput" id="searchInput"><input type="text" placeholder="Search..." id="search"
                 onkeyup="searchFunction()">
             <div class="searchOver-f">
