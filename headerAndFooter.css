@@ -471,7 +471,7 @@ nav {
   transition: .4s
 }
 
-.active,
+.activeMenu,
 .accordion:hover {
   background-color: #ccc
 }
