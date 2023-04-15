@@ -382,7 +382,7 @@ nav {
 .openNav {
   margin: 0 .5em;
   font-weight: 600;
-  color: var(--wheat-convert-red);
+  color: var(--light-yellow);
   background-color: var(--btn-dark);
   font-family: var(--a-font);
   padding: .1em .4em;
@@ -484,7 +484,7 @@ nav {
   margin-left: 5px
 }
 
-.active:after {
+.activeMenu:after {
   content: "\2212"
 }
 

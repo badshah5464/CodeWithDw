@@ -300,7 +300,7 @@ ul.m-all-05em-3vw {
 }
 
 .a-btn {
-  color: var(--wheat-convert-red);
+  color: var(--main-theme);
   cursor: pointer;
   background-color: var(--btn-dark);
   padding: .5em .5em;
