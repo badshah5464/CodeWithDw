@@ -1,7 +1,7 @@
 let pageLinkAdvanceMethod = document.getElementById("advanceMethodLink");
 
 const pageLink = [{
-    link: './AdvanceMethod.html',
+    link: './AdvanceMethod-01.html',
     pageName: "Advance Method Home",
   },
   {

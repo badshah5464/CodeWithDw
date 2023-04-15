@@ -382,8 +382,10 @@ nav {
 .openNav {
   margin: 0 .5em;
   font-weight: 600;
-  background-color: var(--btn-color);
-  padding: .2em .4em;
+  color: var(--wheat-convert-red);
+  background-color: var(--btn-dark);
+  font-family: var(--a-font);
+  padding: .1em .4em;
   border: var(--border-1pxSolid-gray);
   cursor: pointer;
   border-radius: 4px;
