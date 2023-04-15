@@ -396,9 +396,7 @@ td {
 
 .iFrem-Output>iframe {
   border: var(--border-2pxDashed-marron);
-  
   width: 100%;
-  height: 60vh;
 }
 
 .iFrem-Output>a.a-btn {
