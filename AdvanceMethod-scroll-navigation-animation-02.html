@@ -8,7 +8,7 @@
   <script src="https://kit.fontawesome.com/010f924f62.js" crossorigin="anonymous"></script>
   <link rel="icon" href="./OnlyDW-MetalPNG.png" />
   <title>
-    <!--Enter WebPage title-->
+    Navigation Scroll Animation
   </title>
   <link rel="stylesheet" href="./CodeWithDW.css" />
   <link rel="stylesheet" href="./headerAndFooter.css" />
@@ -103,21 +103,21 @@
       <section class="linkPageAside" id="linkPageAside">
         <div class="aside-heading">
           <!--! Enter PageLink Heading  -->
-          <h2>PageLink Heading</h2>
+          <h2>Advance Methods</h2>
         </div>
         <div class="page-link">
           <!--! PageLink is here. enter here id and get page's.-->
-          <ul id="|||||"></ul>
+          <ul id="advanceMethodLink"></ul>
         </div>
       </section>
     </aside>
     <section class="page-topic">
       <!--! Topic Heading -->
-      <h2>Topic Heading</h2>
+      <h2>Navigation Scroll Animation</h2>
       <hr class="hr-simple" />
       <section class="forword-back-btn">
         <div class="back-next-btn hint">
-          <div class="_hint"><a href="./index.html"><i class="fas fa-angle-left"></i>Back</a>
+          <div class="_hint"><a href="AdvanceMethod-01.html"><i class="fas fa-angle-left"></i>Back</a>
             <div class="_sugest">
               <p>Back to home</p>
             </div>
@@ -134,7 +134,24 @@
       <!--! Code Is Here  -->
       <section class="codeIsHere">
 
+        <section class="iFrem-Output">
+          <h3>Scroll up & down page :</h3>
+          <iframe src="./Demo-AdvanceMethod-scroll-navigation-animation.html" frameborder="0"
+            title="Navigation Scroll Animation"></iframe>
+          <a href="./Demo-AdvanceMethod-scroll-navigation-animation.html" class="a-btn" target="_blank">Open Full
+            Screen</a>
+        </section>
 
+        <section class="leng-code">
+          <h3>HTML :</h3>
+          <pre class="myCode"><code class="language-html" id="navigationAnimationHTML"></code></pre>
+          <hr class="hr-simple">
+          <h3>CSS :</h3>
+          <pre class="myCode"><code class="language-css" id="navigationAnimationCSS"></code></pre>
+          <hr class="hr-simple">
+          <h3>js :</h3>
+          <pre class="myCode"><code class="language-js" id="navigationAnimationJs"></code></pre>
+        </section>
 
       </section>
       <!--! /Code Is Here  -->
@@ -155,12 +172,83 @@
     </div>
   </section>
 
+  <script src="linkPageAdvanceMthod.js"></script>
   <script src="./search.js"></script>
   <script src="./AllLengMenu.js"></script>
   <script src="./gen.js"></script>
   <script src="./lengPage.js"></script>
   <script src="./CodeWithDW.js"></script>
   <script src="./footerCopy.js"></script>
+  <script>
+    document.getElementById("navigationAnimationHTML").innerHTML = `
+  &LT;header class="header-top" id="headerScroll"&GT;
+    &LT;section class="header-container"&GT;
+      &LT;div&GT;
+        &LT;div class="logo"&GT;Company Name&LT;/div&GT;
+      &LT;/div&GT;
+      &LT;nav&GT;
+        &LT;ul&GT;
+          &LT;li&GT;Home&LT;/li&GT;
+          &LT;li&GT;About&LT;/li&GT;
+          &LT;li&GT;Contact&LT;/li&GT;
+          &LT;li&GT;Info&LT;/li&GT;
+          &LT;li&GT;About&LT;/li&GT;
+        &LT;/ul&GT;
+      &LT;/nav&GT;
+    &LT;/section&GT;
+  &LT;/header&GT;
+    `;
+
+    document.getElementById("navigationAnimationCSS").innerHTML = `
+    .header-top {
+      position: sticky;
+      top: 30px;
+      margin: 0 7em;
+      transition: .5s ease-in-out;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -ms-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+    }
+
+    .header-scroll {
+      position: sticky;
+      margin: 0;
+      top: 0;
+      transition: .5s ease-in-out;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -ms-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+    }
+
+    .header-container {
+      background-color: aquamarine;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 5px 8px rgba(150, 150, 150, 0.462);
+      padding: 1.5em;
+      width: 100%;
+      position: absolute;
+      justify-content: space-between;
+    }
+    `;
+
+    document.getElementById("navigationAnimationJs").innerHTML = `
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop < 50) {
+        document.getElementById("headerScroll").className = "header-top";
+      } else {
+        document.getElementById("headerScroll").className = "header-scroll";
+      }
+    };
+    `;
+  </script>
 </body>
 
 </html>

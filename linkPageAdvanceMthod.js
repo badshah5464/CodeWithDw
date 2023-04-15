@@ -5,8 +5,8 @@ const pageLink = [{
     pageName: "Advance Method Home",
   },
   {
-    link: './advanceMethod-internal_img_upload.html',
-    pageName: 'Internal Image Upload In Profile',
+    link: './AdvanceMethod-scroll-navigation-animation-02.html',
+    pageName: 'Navigation Scroll Animation',
   }
 ];
 

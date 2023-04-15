@@ -27,7 +27,7 @@ mark {
 .mark {
   background-color: var(--mark);
   padding: 1px 2px;
-  width:min-content;
+  width: min-content;
 }
 
 a {
@@ -53,12 +53,14 @@ mark {
   --btn-dark: #4d4d4d;
   --black-text: black;
   --white-text: white;
+  --wheat-convert-red: wheat;
   --boxShadow-black-to-white-inset: inset 0 0 5px black;
   --navigation-detail-doxShadow: -1px 1px 4px #00000080;
   --boxShadow-black-outset: 0 0 5px black;
   --boxShadow-black-inset: inset 0 0 5px rgb(0, 0, 0);
   --border-2pxSolid-black: 2px solid black;
   --border-bottom-2pxSolid-white: 2px solid black;
+  --border-2pxDashed-marron: 2px dashed #530000;
   --code-page-ul-li-borderBottom: 2px solid black;
   --hr-border: 2px solid black;
   --border-2pxSolid-black: 2px solid black;
@@ -90,12 +92,14 @@ mark {
   --btn-dark: #dddddd;
   --black-text: white;
   --white-text: black;
+  --wheat-convert-red: rgb(255, 100, 100);
   --boxShadow-black-to-white-inset: inset 0 0 5px white;
   --navigation-detail-doxShadow: -1px 1px 4px #ffffff80;
   --boxShadow-black-outset: 0 0 5px white;
   --boxShadow-black-inset: inset 0 0 5px rgb(255, 255, 255);
   --border-2pxSolid-black: 2px solid white;
   --border-bottom-2pxSolid-white: 2px solid white;
+  --border-2pxDashed-marron: 2px dashed #ff4444;
   --code-page-ul-li-borderBottom: 2px solid white;
   --hr-border: 2px solid white;
   --border-2pxSolid-black: 2px solid rgb(255, 255, 255);
@@ -137,7 +141,7 @@ mark {
   --border-2pxSolid-white: 2px solid white;
   --border-1pxSolid-white: 1px solid white;
   --border-2pxSolid-black: 2px solid black;
-  --logo-name-span: red;
+  --logo-name-span: rgb(190, 0, 0);
   --leng-code-bg: rgba(255, 255, 255, .3);
   --pageLink-btn-a-bg: #f5deb280;
   --response-pageLink-btn-a-bg: #f5deb2aa;
@@ -296,12 +300,13 @@ ul.m-all-05em-3vw {
 }
 
 .a-btn {
-  color: wheat;
+  color: var(--wheat-convert-red);
   cursor: pointer;
-  background-color: #2a2a2a;
+  background-color: var(--btn-dark);
   padding: .5em .5em;
   text-decoration: none;
   font-family: var(--a-font);
+  font-weight: 600;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

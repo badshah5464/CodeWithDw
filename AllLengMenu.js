@@ -1,76 +1,94 @@
-const menuHtml = [{
+const menuHtml = [
+  {
     link: "./HTML-Home-01.html",
-    pageName: "Basic HTML"
+    pageName: "Basic HTML",
   },
   {
     link: "./html-introduction-02.html",
-    pageName: "HTML introduction"
+    pageName: "HTML introduction",
   },
   {
     link: "./html-Editor-03.html",
-    pageName: "HTML Editor"
-  }
+    pageName: "HTML Editor",
+  },
 ];
 
-const menuCSS = [{
-  link: "./CSS-Basic-01.html",
-  pageName: "CSS Tutorial"
-}];
+const menuCSS = [
+  {
+    link: "./CSS-Basic-01.html",
+    pageName: "CSS Tutorial",
+  },
+];
 
-const menuJavaScript = [{
-  link: "./JavaScript-Basic-01.html",
-  pageName: "Basic of JavaScript"
-}];
+const menuJavaScript = [
+  {
+    link: "./JavaScript-Basic-01.html",
+    pageName: "Basic of JavaScript",
+  },
+];
 
-const menuReact = [{
+const menuReact = [
+  {
     link: "./React-App-Install-01.html",
-    pageName: "React App Install Method"
+    pageName: "React App Install Method",
   },
   {
     link: "./react-app-structure-02.html",
-    pageName: "React App Structure"
+    pageName: "React App Structure",
   },
   {
     link: "./react-app-about-AppJs-03.html",
-    pageName: "About App.js & app start command."
+    pageName: "About App.js & app start command.",
   },
   {
     link: "./react-component-04.html",
-    pageName: "Component's & Import Export Method"
+    pageName: "Component's & Import Export Method",
   },
   {
     link: "./react-BrowserRouter-05.html",
-    pageName: "BrowserRouter Method"
+    pageName: "BrowserRouter Method",
   },
   {
     link: "./react-propsMethod-06.html",
-    pageName: "Props Method"
+    pageName: "Props Method",
   },
   {
     link: "./react-useState_and_useRef-07.html",
-    pageName: "useState() & useRef Method"
-  }
+    pageName: "useState() & useRef Method",
+  },
 ];
 
-const menuAdvanceMethod = [{
-  link: 'AdvanceMethod-01.html',
-  pageName: 'Advance Method Home',
-}];
+const menuAdvanceMethod = [
+  {
+    link: "AdvanceMethod-01.html",
+    pageName: "Advance Method Home",
+  },
+  {
+    link: "./AdvanceMethod-scroll-navigation-animation-02.html",
+    pageName: "Navigation Scroll Animation",
+  }
+];
 
 let Menu_itemHtml = document.getElementById("lengCodeDetailHTML"),
   Menu_itemCSS = document.getElementById("lengCodeDetailCSS"),
   Menu_itemJavaScript = document.getElementById("lengCodeDetailJavaScript"),
   Menu_itemReact = document.getElementById("lengCodeDetailReact"),
-  Menu_itemAdvanceMethod = document.getElementById("lengCodeDetailAdvanceMethod");
+  Menu_itemAdvanceMethod = document.getElementById(
+    "lengCodeDetailAdvanceMethod"
+  );
 
-menuHtml.map((function (e) {
-  Menu_itemHtml.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`
-})), menuCSS.map((function (e) {
-  Menu_itemCSS.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`
-})), menuJavaScript.map((function (e) {
-  Menu_itemJavaScript.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`
-})), menuReact.map((function (e) {
-  Menu_itemReact.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`
-})), menuAdvanceMethod.map((function (e) {
-  Menu_itemAdvanceMethod.innerHTML = `<li><a href="${e.link}">${e.pageName}</a></li>`
-}));
+menuHtml.map(function (e) {
+  Menu_itemHtml.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`;
+}),
+  menuCSS.map(function (e) {
+    Menu_itemCSS.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`;
+  }),
+  menuJavaScript.map(function (e) {
+    Menu_itemJavaScript.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`;
+  }),
+  menuReact.map(function (e) {
+    Menu_itemReact.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`;
+  }),
+  menuAdvanceMethod.map(function (e) {
+    Menu_itemAdvanceMethod.innerHTML += `<li><a href="${e.link}">${e.pageName}</a></li>`;
+  });

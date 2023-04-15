@@ -14,12 +14,12 @@ const addMenu = document.getElementById("addMenu"),
       link: "./html-Editor-03.html",
       pageName: "HTML Editor",
     },
-    //! CSS 
+    //! CSS
     {
       link: "./CSS-Basic-01.html",
       pageName: "CSS Tutorial",
     },
-    //! JavaScript 
+    //! JavaScript
     {
       link: "./JavaScript-Basic-01.html",
       pageName: "Basic of JavaScript",
@@ -29,7 +29,11 @@ const addMenu = document.getElementById("addMenu"),
       link: "./AdvanceMethod-01.html",
       pageName: "Advance Method Home",
     },
-    //! React 
+    {
+      link: "./AdvanceMethod-scroll-navigation-animation-02.html",
+      pageName: "Navigation Scroll Animation",
+    },
+    //! React
     {
       link: "./React-App-Install-01.html",
       pageName: "React App Install",
@@ -84,21 +88,23 @@ function searchFunction() {
   let e, s, a, n, t, c;
   for (
     e = document.getElementById("search"),
-    s = e.value.toUpperCase(),
-    a = document.getElementsByClassName("searchMenu"),
-    n = document.getElementsByClassName("searchList"),
-    c = 0; c < n.length; c++
+      s = e.value.toUpperCase(),
+      a = document.getElementsByClassName("searchMenu"),
+      n = document.getElementsByClassName("searchList"),
+      c = 0;
+    c < n.length;
+    c++
   )
     (t = n[c].getElementsByClassName("item")[0]),
-    t.innerHTML.toUpperCase().indexOf(s) > -1 ?
-    (n[c].style.display = "") :
-    (n[c].style.display = "none");
+      t.innerHTML.toUpperCase().indexOf(s) > -1
+        ? (n[c].style.display = "")
+        : (n[c].style.display = "none");
 }
 searchIcon.addEventListener("click", () => {
-    "searchInput" === searchInput.className ?
-      (searchInput.className += " searchResponse") :
-      (searchInput.className = "searchInput");
-  }),
+  "searchInput" === searchInput.className
+    ? (searchInput.className += " searchResponse")
+    : (searchInput.className = "searchInput");
+}),
   searchValue.map(function (e) {
     addMenu.innerHTML += `<li class="searchList"><a href="${e.link}" class="item">${e.pageName}</a></li>`;
   });
