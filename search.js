@@ -33,6 +33,26 @@ const addMenu = document.getElementById("addMenu"),
       link: "./AdvanceMethod-scroll-navigation-animation-02.html",
       pageName: "Navigation Scroll Animation",
     },
+    {
+      link: "./AdvanceMethod-AnchorTag-Animation-03.html",
+      pageName: 'Anchor Tag Animation <br> ( &lt;a href=""&gt;&lt;/a&gt; )',
+    },
+    {
+      link: "./AdvanceMethod-AnchorTag-Animation-03.html",
+      pageName: 'a tag animation',
+    },
+    {
+      link: "./AdvanceMethod-AnchorTag-Animation-03.html",
+      pageName: 'a tag bottom line animation',
+    },
+    {
+      link: "./AdvanceMethod-AnchorTag-Animation-03.html",
+      pageName: 'Anchor Tag Underline Animation',
+    },
+    {
+      link: "./AdvanceMethod-AnchorTag-Animation-03.html",
+      pageName: 'a Tag Underline Animation',
+    },
     //! React
     {
       link: "./React-App-Install-01.html",

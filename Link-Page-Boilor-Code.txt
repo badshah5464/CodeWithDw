@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./gen.css" />
     <link rel="stylesheet" href="./link-page.css" />
     <link rel="stylesheet" href="./responsive.css" />
-    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="./search.css">
     <link rel="stylesheet" href="./ruff.css">
     <style>
         /* #pageLink|||>li:nth-child(|||)>a {

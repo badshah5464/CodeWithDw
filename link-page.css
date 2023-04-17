@@ -403,3 +403,11 @@ td {
   display: inline-block;
   margin: 1em 0;
 }
+
+.direct-declare-output {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  border: var(--border-2pxDashed-marron);
+}
