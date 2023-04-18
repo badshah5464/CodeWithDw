@@ -18,60 +18,31 @@
   <link rel="stylesheet" href="./search.css">
   <link rel="stylesheet" href="./ruff.css">
   <style>
-    #advanceMethodLink>li:nth-child(3)>a {
+    #advanceMethodLink>li:nth-child(4)>a {
       color: var(--response-content-red);
     }
 
-    .hover-underline-animation {
-      font-family: Arial, Helvetica, sans-serif;
+    .drop {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
       font-size: 20px;
-      position: relative;
-      color: black;
-      text-decoration: none;
+      font-weight: 600;
     }
 
-    .hover-underline-animation::after {
-      content: "";
+    .down {
       position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 5px;
-      bottom: -5px;
-      left: 0;
-      background-color: red;
-      transform-origin: bottom;
-      transition: transform 0.25s ease-out;
+      /* display: none; */
+      background-color: white;
+      box-shadow: 2px 2px 4px gray;
+      width: 200px;
+      margin: .2em 0;
     }
 
-    .hover-underline-animation:hover::after {
-      transform: scaleX(1);
-      transform-origin: bottom;
-    }
-
-    .hover-underline-another-animation {
+    .down>a {
+      display: block;
+      margin: .3em .5em;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 20px;
-      position: relative;
-      color: black;
-      text-decoration: none;
-    }
-
-    .hover-underline-another-animation::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 5px;
-      bottom: -5px;
-      left: 0;
-      background: linear-gradient(90deg, #070000 0%, #fb0004 50%, #070000 100%);
-      transform-origin: bottom right;
-      transition: transform 0.25s ease-out;
-    }
-
-    .hover-underline-another-animation:hover::after {
-      transform: scaleX(1);
-      transform-origin: bottom left;
     }
   </style>
 </head>
@@ -167,11 +138,11 @@
     </aside>
     <section class="page-topic">
       <!--! Topic Heading -->
-      <h2>Anchor Tag Underline Animation</h2>
+      <h2>DropDown With Js</h2>
       <hr class="hr-simple" />
       <section class="forword-back-btn">
         <div class="back-next-btn hint">
-          <div class="_hint"><a href="./AdvanceMethod-scroll-navigation-animation-02.html"><i
+          <div class="_hint"><a href="./AdvanceMethod-AnchorTag-Animation-03.html"><i
                 class="fas fa-angle-left"></i>Back</a>
             <div class="_sugest">
               <p>Back to home</p>
@@ -179,7 +150,7 @@
           </div>
         </div>
         <div class="back-next-btn hint">
-          <div class="_hint"><a href="./AdvanceMethod-DropDown-04.html">Next <i class="fas fa-angle-right"></i></a>
+          <div class="_hint"><a href="||||||">Next <i class="fas fa-angle-right"></i></a>
             <div class="_sugest">
               <p>Next Page</p>
             </div>
@@ -190,26 +161,20 @@
       <section class="codeIsHere">
 
         <section class="leng-code">
-          <section class="iFrem-Output">
-            <a href="#" class="hover-underline-animation">
-              Hover on me to see the effect 🖱
-            </a>
+          <section class="iFrem-Output" style="height: 180px;">
+            <div class="dropdown">
+              <div class="drop" onclick="service()">Click Here!</div>
+              <div class="down">
+                <a href="#">Customer Service</a>
+                <a href="#">FeedBack</a>
+                <a href="#">Link</a>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+              </div>
+            </div>
           </section>
-          <h3>HTML :</h3>
-          <pre class="myCode"><code class="language-markup" id="anchorTagHTML"></code></pre>
-          <h3>CSS :</h3>
-          <pre class="myCode"><code class="language-css" id="anchorTagCSS"></code></pre>
         </section>
 
-        <section class="leng-code">
-          <section class="iFrem-Output">
-            <a href="#" class="hover-underline-another-animation">Hover on me to see the effect 🖱</a>
-          </section>
-          <h3>HTML :</h3>
-          <pre class="myCode"><code class="language-markup" id="anotherAnimationHTML"></code></pre>
-          <h3>CSS :</h3>
-          <pre class="myCode"><code class="language-css" id="anotherAnimationCSS"></code></pre>
-        </section>
       </section>
       <!--! /Code Is Here  -->
       <section class="endingTopicLine">
@@ -236,70 +201,6 @@
   <script src="./lengPage.js"></script>
   <script src="./CodeWithDW.js"></script>
   <script src="./footerCopy.js"></script>
-  <script>
-    document.getElementById("anchorTagHTML").innerHTML = `
-      &lt;a href="#" class="hover-underline-animation"&gt;Hover on me to see the effect 🖱&lt;/a&gt;
-    `;
-    document.getElementById("anchorTagCSS").innerHTML = `
-    .hover-underline-animation {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 20px;
-      position: relative;
-      color: black;
-      text-decoration: none;
-    }
-
-    .hover-underline-animation::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 5px;
-      bottom: -5px;
-      left: 0;
-      background-color: red;
-      transform-origin: bottom;
-      transition: transform 0.25s ease-out;
-    }
-
-    .hover-underline-animation:hover::after {
-      transform: scaleX(1);
-      transform-origin: bottom;
-    }
-    `;
-
-    document.getElementById("anotherAnimationHTML").innerHTML = `
-      &lt;a href="#" class="hover-underline-another-animation"&gt;Hover on me to see the effect 🖱&lt;/a&gt;
-    `;
-
-    document.getElementById("anotherAnimationCSS").innerHTML = `
-    .hover-underline-another-animation {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 20px;
-      position: relative;
-      color: black;
-      text-decoration: none;
-    }
-
-    .hover-underline-another-animation::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 5px;
-      bottom: -5px;
-      left: 0;
-      background: linear-gradient(90deg, #070000 0%, #4c0001 50%, #070000 100%);
-      transform-origin: bottom right;
-      transition: transform 0.25s ease-out;
-    }
-
-    .hover-underline-another-animation:hover::after {
-      transform: scaleX(1);
-      transform-origin: bottom left;
-    }
-    `;
-  </script>
 </body>
 
 </html>

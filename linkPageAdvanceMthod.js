@@ -13,6 +13,10 @@ const pageLink = [
     link: "./AdvanceMethod-AnchorTag-Animation-03.html",
     pageName: 'Anchor Tag Animation <br> ( &lt;a href=""&gt;&lt;/a&gt; )',
   },
+  {
+    link: "./AdvanceMethod-DropDown-04.html",
+    pageName: "DropDown With Js",
+  },
 ];
 
 pageLink.map(function (x) {

@@ -66,7 +66,15 @@ const menuAdvanceMethod = [
   {
     link: "./AdvanceMethod-scroll-navigation-animation-02.html",
     pageName: "Navigation Scroll Animation",
-  }
+  },
+  {
+    link: "./AdvanceMethod-AnchorTag-Animation-03.html",
+    pageName: 'Anchor Tag Animation <br> ( &lt;a href=""&gt;&lt;/a&gt; )',
+  },
+  {
+    link: "./AdvanceMethod-DropDown-04.html",
+    pageName: "DropDown With Js",
+  },
 ];
 
 let Menu_itemHtml = document.getElementById("lengCodeDetailHTML"),

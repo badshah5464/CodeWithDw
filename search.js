@@ -39,19 +39,23 @@ const addMenu = document.getElementById("addMenu"),
     },
     {
       link: "./AdvanceMethod-AnchorTag-Animation-03.html",
-      pageName: 'a tag animation',
+      pageName: "a tag animation",
     },
     {
       link: "./AdvanceMethod-AnchorTag-Animation-03.html",
-      pageName: 'a tag bottom line animation',
+      pageName: "a tag bottom line animation",
     },
     {
       link: "./AdvanceMethod-AnchorTag-Animation-03.html",
-      pageName: 'Anchor Tag Underline Animation',
+      pageName: "Anchor Tag Underline Animation",
     },
     {
       link: "./AdvanceMethod-AnchorTag-Animation-03.html",
-      pageName: 'a Tag Underline Animation',
+      pageName: "a Tag Underline Animation",
+    },
+    {
+      link: "./AdvanceMethod-DropDown-04.html",
+      pageName: "DropDown With Js",
     },
     //! React
     {
