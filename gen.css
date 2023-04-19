@@ -78,6 +78,7 @@ mark {
   --dark-yellow: #ffe600;
   --mark: hsla(0, 0%, 36%, .5);
   --searchIcon-bg: hsla(0, 100%, 80%, .5);
+  --searchIcon-bg-hover: hsla(0, 100%, 65%, 0.5);
   --overlay-bg: rgba(197, 197, 255, .95);
   --imp-txt: pink;
   --a-color: blue

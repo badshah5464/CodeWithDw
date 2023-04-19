@@ -34,6 +34,10 @@ const addMenu = document.getElementById("addMenu"),
       pageName: "Navigation Scroll Animation",
     },
     {
+      link: "./AdvanceMethod-scroll-navigation-animation-02.html",
+      pageName: "Navigation Scroll Animation in ReactJs",
+    },
+    {
       link: "./AdvanceMethod-AnchorTag-Animation-03.html",
       pageName: 'Anchor Tag Animation <br> ( &lt;a href=""&gt;&lt;/a&gt; )',
     },
