@@ -32,7 +32,7 @@
 
     .down {
       position: absolute;
-      /* display: none; */
+      display: none;
       background-color: white;
       box-shadow: 2px 2px 4px gray;
       width: 200px;
@@ -43,6 +43,10 @@
       display: block;
       margin: .3em .5em;
       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .active {
+      display: block;
     }
   </style>
 </head>
@@ -164,7 +168,7 @@
           <section class="iFrem-Output" style="height: 180px;">
             <div class="dropdown">
               <div class="drop" onclick="service()">Click Here!</div>
-              <div class="down">
+              <div class="down" id="show">
                 <a href="#">Customer Service</a>
                 <a href="#">FeedBack</a>
                 <a href="#">Link</a>
@@ -174,7 +178,24 @@
             </div>
           </section>
         </section>
+        <script>
+          function service() {
+            document.getElementById('show').classList.toggle('active')
+          }
 
+          window.onclick = (event) => {
+            if (!event.target.matches(".drop")) {
+              let down = document.getElementsByClassName("down")
+              let i;
+              for (i = 0; i < down.length; i++) {
+                let dropdown = down[i]
+                if (dropdown.classList.contains('active')) {
+                  dropdown.classList.remove('active')
+                }
+              }
+            }
+          }
+        </script>
       </section>
       <!--! /Code Is Here  -->
       <section class="endingTopicLine">
