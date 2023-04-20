@@ -6,8 +6,9 @@
 
 .header-heading {
   /* text-align: center; */
-  background-color: var(--light-yellow);
-  color: var(--black-text);
+  background-color: var(--header-heading-bg);
+  /* color: var(--black-text); */
+  color: var(--header-heading-text);
   padding: .2em 0;
   font-family: var(--normal-roboto);
   font-weight: 600;
@@ -123,7 +124,10 @@ nav {
   height: 32px;
   width: 100%;
   background-color: var(--light-yellow);
-  box-shadow: var(--boxShadow-black-to-white-inset);
+  /* box-shadow: var(--boxShadow-black-to-white-inset); */
+  border: var(--border-1pxSolid-black);
+  border-left: none;
+  border-right: none;
   font-family: var(--a-font);
   display: flex;
   align-items: center

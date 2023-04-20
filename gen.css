@@ -46,7 +46,9 @@ mark {
 
 :root {
   --royal-blue: #0f1a33cc;
-  --main-theme: #eaf8fd;
+  /*? Page background color */
+  /* --main-theme: #eaf8fd; */
+  --main-theme: white;
   --linkPageAside: #dfdfdf;
   --leng-topic-navBtn: #001212;
   --btn-color: #ddd;
@@ -69,8 +71,15 @@ mark {
   --border-1pxSolid-gray: 1px solid gray;
   --darkGreen: darkgreen;
   --darkBlue: darkblue;
-  --light-yellow: #ffffcc;
-  --light-blue: #7fffff;
+  /*? Header Menu and header top bg color  */
+  /* --light-yellow: #ffffcc; */
+  --light-yellow: white;
+  --header-heading-bg: rgb(20, 20, 20);
+  /*? Header Text Color  */
+  --header-heading-text: white;
+  /*? Header Nav bg color  */
+  /* --light-blue: #7fffff; */
+  --light-blue: rgb(255, 255, 255);
   --black: black;
   --white: white;
   --gray: gray;
