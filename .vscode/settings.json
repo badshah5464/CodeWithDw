@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 19,
-    "editor.tabSize": 2,
+    "editor.tabSize": 5,
     "liveServer.settings.port": 5501,
     "liveServer.settings.fullReload": false,
     "editor.cursorStyle": "block",
@@ -12,5 +12,8 @@
     "editor.accessibilityPageSize": 10,
     "editor.fontFamily": "'Exo 2', sans-serif",
     "editor.detectIndentation": false,
-    "editor.experimental.asyncTokenization": false
+    "editor.experimental.asyncTokenization": false,
+    "cSpell.words": [
+      "jurny"
+    ]
 }
