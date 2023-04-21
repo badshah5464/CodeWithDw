@@ -62,9 +62,10 @@ li {
   top: 15vh;
   height: 86vh;
   overflow: auto;
-  background-color: var(--linkPageAside);
-  border-right: var(--border-3pxSolid-red);
-  border-bottom: var(--border-3pxSolid-red);
+  background-color: var(--header-heading-bg);
+  border-right: 3px Solid;
+  border-bottom: 3px Solid;
+  border-color: var(--theme-color);
   width: 15vw;
   border-radius: 0 0 20px 0;
   -webkit-border-radius: 0 0 20px 0;

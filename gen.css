@@ -61,7 +61,7 @@ mark {
      --navigation-detail-doxShadow: -1px 1px 4px #00000080;
      --boxShadow-black-outset: 0 0 5px black;
      --boxShadow-black-inset: inset 0 0 5px rgb(0, 0, 0);
-     --border-2pxSolid-wheat: 2px solid wheat;
+     --border-2pxSolid-wheat: 2px solid wheat
      --border-2pxSolid-black: 2px solid black;
      --border-bottom-2pxSolid-white: 2px solid black;
      --border-2pxDashed-marron: 2px dashed #530000;
@@ -75,14 +75,13 @@ mark {
      --darkBlue: darkblue;
      /*? Header Menu and header top : bg  */
      /* --light-yellow: #ffffcc; */
-     --light-yellow: white;
+     --light-yellow: #e8e8e8;
      /** using header-heading and footer : bg*/
-     --header-heading-bg: rgb(170, 170, 170);
+     --header-heading-bg: #e8e8e8;
      /*? Header Text Color  */
      --header-heading-text: white;
      /*? Header Nav bg color  */
-     /* --light-blue: #7fffff; */
-     --light-blue: rgb(255, 255, 255);
+     --light-blue: #f9fffe;
      --black: black;
      --white: white;
      --gray: gray;
@@ -95,6 +94,8 @@ mark {
      --imp-txt: pink;
      --a-color: blue;
      --theme-line-color: rgb(255, 30, 30);
+     /*? Footer Gradient  */
+     --footer-bg: linear-gradient( #d8d8d8 0%, #ffffff 100%);
 }
 
 .darkMode {
@@ -121,7 +122,7 @@ mark {
      --border-1pxSolid-black: 1px solid white;
      --border-1pxSolid-white: 1px solid black;
      --border-1pxSolid-gray: 1px solid lightgray;
-     --header-heading-bg: rgb(20, 20, 20);
+     --header-heading-bg: #141414;
      --darkGreen: lightgreen;
      --darkBlue: lightblue;
      --light-yellow: #001212;
@@ -135,8 +136,9 @@ mark {
      --searchIcon-bg: hsla(0, 0%, 100%, .5);
      --overlay-bg: rgb(2, 0, 26, .95);
      --imp-txt: rgb(80, 0, 80);
-     --a-color: rgb(255, 55, 55);
+     --a-color: #ff3737;
      --theme-line-color: rgb(255, 175, 175);
+     --footer-bg: linear-gradient( #141414 0%, hsla(0, 0%, 100%, 0.01) 100%);
 }
 
 :root {
@@ -170,6 +172,7 @@ mark {
      --MP-tb-1vw: 1vw 0;
      --MP-btn-01: 1vw 1.5vw;
      --theme-line: .2em solid;
+     --theme-color: #ff3737;
 }
 
 .m-tb-1em {
@@ -258,7 +261,7 @@ ul.m-all-05em-3vw {
 
 .line {
      border: var(--theme-line);
-     border-color: var(--theme-line-color);
+     border-color: var(--theme-color);
      margin: var(--main-margin);
      width: 10vw;
      color: #f5deb3
@@ -274,7 +277,7 @@ ul.m-all-05em-3vw {
 
 .lineTwo {
      border: var(--theme-line);
-     border-color: var(--theme-line-color);
+     border-color: var(--theme-color);
      width: 30vw;
      margin: 1em 2em;
      border-radius: 100%;

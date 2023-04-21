@@ -20,7 +20,7 @@ const pageLink = [
 ];
 
 pageLink.map(function (x) {
-  advanceMethodLink.innerHTML += `
+  pageLinkAdvanceMethod.innerHTML += `
     <li><a href="${x.link}">${x.pageName}</a></li>
     `;
 });
