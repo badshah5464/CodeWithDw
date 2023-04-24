@@ -83,6 +83,18 @@ const addMenu = document.getElementById("addMenu"),
       pageName: "Component's & Import Export Method",
     },
     {
+      link: "./react-component-04.html",
+      pageName: "Import Component file",
+    },
+    {
+      link: "./react-component-04.html",
+      pageName: "Import CSS file",
+    },
+    {
+      link: "./react-component-04.html",
+      pageName: "Import Image",
+    },
+    {
       link: "./react-BrowserRouter-05.html",
       pageName: "BrowserRouter Method",
     },
@@ -93,6 +105,18 @@ const addMenu = document.getElementById("addMenu"),
     {
       link: "./React-useRef-Method-07.html",
       pageName: "useRef() Method",
+    },
+    {
+      link: "./React-useRef-Method-07.html",
+      pageName: "Change value only one click",
+    },
+    {
+      link: "./React-useState-Method-08.html",
+      pageName: "useState() Method",
+    },
+    {
+      link: "./React-useState-Method-08.html",
+      pageName: "toggle theme change react",
     },
   ];
 

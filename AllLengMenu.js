@@ -56,6 +56,10 @@ const menuReact = [
     link: "./React-useRef-Method-07.html",
     pageName: "useRef Method",
   },
+  {
+     link: "./React-useState-Method-08.html",
+     pageName: "useState() Method",
+   },
 ];
 
 const menuAdvanceMethod = [
