@@ -91,20 +91,8 @@ const addMenu = document.getElementById("addMenu"),
       pageName: "Props Method",
     },
     {
-      link: "./react-useState_and_useRef-07.html",
-      pageName: "useState() & useRef() Method",
-    },
-    {
-      link: "./react-useState_and_useRef-07.html",
-      pageName: "useState() react",
-    },
-    {
-      link: "./react-useState_and_useRef-07.html",
-      pageName: "useRef() react",
-    },
-    {
-      link: "./react-useState_and_useRef-07.html",
-      pageName: "Theme Change With useState() Method",
+      link: "./React-useRef-Method-07.html",
+      pageName: "useRef() Method",
     },
   ];
 
