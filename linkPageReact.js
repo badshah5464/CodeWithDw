@@ -23,8 +23,8 @@ const reactPageLink = [{
   pageName: "Props Method"
 },
 {
-  link: "./react-useState_and_useRef-07.html",
-  pageName: "useState() & useRef() Method"
+  link: "./React-useRef-Method-07.html",
+  pageName: "useRef() Method"
 }
 ];
 
