@@ -153,7 +153,7 @@
         </section>
       </aside>
       <section class="page-topic">
-        <h2>useState() & useRef() Method :</h2>
+        <h2>useRef() Method :</h2>
         <hr class="hr-simple" />
         <section class="forword-back-btn">
           <div class="back-next-btn hint">
@@ -177,6 +177,7 @@
         </section>
         <section class="codeIsHere">
           <h2>useRef() Method :</h2>
+          <p class="bold-600">Click and only one time change value.</p>
           <section class="leng-code">
             <h3>Component.js</h3>
             <pre
@@ -186,7 +187,24 @@
               <h3>Example :</h3>
               <iframe
                 src="https://rect-useref-method-example-1.netlify.app/"
-                frameborder="0" height="120px"></iframe>
+                frameborder="0"
+                height="120px"
+              ></iframe>
+            </section>
+          </section>
+          <hr class="hr-simple" />
+          <p class="bold-600">Toggle Change value.</p>
+          <section class="leng-code">
+            <pre
+              class="myCode"
+            ><code class="language-js" id="toggleUseRef"></code></pre>
+            <section class="iFrem-Output">
+              <h3>Example :</h3>
+              <iframe
+                src="https://react-useref-method-example-2.netlify.app/"
+                frameborder="0"
+                height="150px"
+              ></iframe>
             </section>
           </section>
         </section>
@@ -239,6 +257,30 @@ function Component() {
 }
 
 export default Component
+      `;
+
+      document.getElementById("toggleUseRef").innerHTML = `
+import "./App.css";
+import React, { useState } from "react";
+
+function App() {
+  const [theme, setTheme] = useState(false);
+  const changeTheme = () =&gt; {
+    setTheme(!theme);
+  };
+  return (
+    &lt;&gt;
+      &lt;h1 style={{ color: theme ? "green" : "blue" }}&gt;This is a Heading&lt;/h1&gt;
+      &lt;p style={{color: theme ? "black" : "white" , backgroundColor: theme ? "white" : "black"}}&gt;
+        This is a paragraph.
+      &lt;/p&gt;
+      &lt;button onClick={changeTheme}&gt;Click!&lt;/button&gt;
+    &lt;/&gt;
+  );
+}
+
+export default App;
+      
       `;
     </script>
   </body>
