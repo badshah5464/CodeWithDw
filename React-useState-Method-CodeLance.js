@@ -1,8 +1,7 @@
 document.getElementById("toggleUseRef").innerHTML = `
-import "./App.css";
 import React, { useState } from "react";
 
-function App() {
+function Theme() {
   const [theme, setTheme] = useState(false);
   const changeTheme = () =&gt; {
     setTheme(!theme);
@@ -18,14 +17,13 @@ function App() {
   );
 }
 
-export default App;
+export default Theme;
       
       `;
 document.getElementById("useStateValue").innerHTML = `
-import "./App.css";
 import React, { useState } from "react";
 
-function App() {
+function AddValue() {
   const [val, setVal] = useState(0);
   const incrementBtn = () =&gt; {
     setVal(val + 1);
@@ -46,6 +44,139 @@ function App() {
   );
 }
 
-export default App;
+export default AddValue;
 
+`;
+document.getElementById("DropDown").innerHTML = `
+import React, { useState } from "react";
+
+function DropDown() {
+  const [drop, setDrop] = useState(false);
+  return (
+    &lt;&gt;
+      &lt;button onClick={() =&gt; setDrop(!drop)}&gt;Click!&lt;/button&gt;
+
+      &lt;div style={{ display: drop ? "block" : "none" }}&gt;
+        &lt;button onClick={() =&gt; setDrop(false)}&gt;Close&lt;/button&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Home&lt;/li&gt;
+          &lt;li&gt;Service&lt;/li&gt;
+          &lt;li&gt;About&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/&gt;
+  );
+}
+
+export default DropDown;
+
+`;
+document.getElementById("DropDownWithClassNameJs").innerHTML = `
+import React, { useState } from "react";
+import "./DropDown.css";
+
+const DropDown = () =&gt; {
+  const [dropDown, setDropDown] = useState(false);
+  return (
+    &lt;section className="DropDown"&gt;
+      &lt;div&gt; className="Drop" onClick={() =&gt; setDropDown(!dropDown)}&gt;
+        Menu
+      &lt;/div&gt;
+      &lt;div className={dropDown ? "DownActive" : "Down"}&gt;
+        &lt;div className="cancelBtn" onClick={() =&gt; setDropDown(false)}&gt;
+          &lt;i&gt; className="fas fa-xmark"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Home&lt;/li&gt;
+          &lt;li&gt;Service&lt;/li&gt;
+          &lt;li&gt;About&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  );
+};
+
+export default DropDown;
+
+`;
+document.getElementById("DropDownWithClassNameCss").innerHTML = `
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     padding: 1em 2em;
+ }
+ 
+ .DropDow {
+     position: relative;
+ }
+ 
+ .Drop {
+     background-color: lightgray;
+     width: fit-content;
+     padding: .3em .4em;
+     margin: .3em 0;
+     box-shadow: 1px 1px 2px black;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+ }
+ 
+ .Down {
+     position: absolute;
+     left: -1000px;
+     transition: .3s;
+     -webkit-transition: .3s;
+     -moz-transition: .3s;
+     -ms-transition: .3s;
+     -o-transition: .3s;
+ }
+ 
+ .DownActive {
+     left: 0;
+     position: relative;
+     width: fit-content;
+     box-shadow: 1px 2px 3px black;
+     margin: .5em 0;
+     padding: 1em 2em;
+     transition: .3s;
+     -webkit-transition: .3s;
+     -moz-transition: .3s;
+     -ms-transition: .3s;
+     -o-transition: .3s;
+ }
+ 
+ .cancelBtn {
+     position: absolute;
+     right: 0;
+     top: 0;
+     padding: .5em;
+     cursor: pointer;
+     font-size: 20px;
+ }
+ 
+ .cancelBtn:active {
+     scale: 1.4;
+ }
+ 
+ .Drop:hover {
+     scale: .95;
+     transition: .3s;
+     -webkit-transition: .3s;
+     -moz-transition: .3s;
+     -ms-transition: .3s;
+     -o-transition: .3s;
+ }
+ 
+ .Drop:active {
+     scale: .95;
+ }
 `;

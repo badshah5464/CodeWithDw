@@ -115,16 +115,33 @@ const addMenu = document.getElementById("addMenu"),
       pageName: "useState() Method",
     },
     {
-      link: "./React-useState-Method-08.html",
+      link: "./React-useState-Method-08.html#toggleThemeChangeReact",
       pageName: "toggle theme change in react",
     },
     {
-      link: "./React-useState-Method-08.html",
+      link: "./React-useState-Method-08.html#incrementValueReact",
       pageName: "increment end decrement value button click in react",
     },
     {
-      link: "./React-useState-Method-08.html",
+      link: "./React-useState-Method-08.html#incrementValueReact",
       pageName: "Add Value click btn in react",
+    },
+    {
+      link: "./React-useState-Method-08.html#dropDownReact",
+      pageName: "DropDown in React",
+    },
+    {
+      link: "./React-useState-Method-08.html#dropDownReact",
+      pageName: "DropDown with useState() Method in ReactJs",
+    },
+    {
+      link: "./React-useState-Method-08.html#dropDownClassReact",
+      pageName: "DropDown with className in React",
+    },
+    {
+      link: "./React-useState-Method-08.html#dropDownClassReact",
+      pageName: "DropDown with class in React",
+     //  id: "",
     },
   ];
 

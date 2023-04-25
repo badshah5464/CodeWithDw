@@ -15,5 +15,6 @@
     "editor.experimental.asyncTokenization": false,
     "cSpell.words": [
       "jurny"
-    ]
+],
+"compile-hero.disable-compile-files-on-did-save-code": false
 }
