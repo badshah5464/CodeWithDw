@@ -119,6 +119,7 @@ nav {
 }
 
 .leng-detail {
+     padding: 0 2px;
      position: relative;
      height: 32px;
      width: 100%;
@@ -224,7 +225,7 @@ nav {
 
 .goToTop {
      position: absolute;
-     right: 0;
+     right: 5px;
      padding: 0 1em;
      animation: RightToLeft 2s ease forwards 0s;
      -webkit-animation: RightToLeft 2s ease forwards 0s
