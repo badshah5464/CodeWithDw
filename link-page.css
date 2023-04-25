@@ -176,7 +176,7 @@ li {
 }
 
 article>p {
-  margin: .7em 0;
+  margin: .7em 7px;
   font-family: var(--martian-mono);
   line-height: 1.8;
   color: var(--text-color-white)
