@@ -21,3 +21,31 @@ function App() {
 export default App;
       
       `;
+document.getElementById("useStateValue").innerHTML = `
+import "./App.css";
+import React, { useState } from "react";
+
+function App() {
+  const [val, setVal] = useState(0);
+  const incrementBtn = () =&gt; {
+    setVal(val + 1);
+  };
+  const decrementBtn = () =&gt; {
+    setVal(val - 1);
+  };
+  return (
+    &lt;&gt;
+      &lt;h2&gt;{val} : Added Value&lt;/h2&gt;
+      &lt;button onClick={incrementBtn} style={{ margin: "0 .5em" }}&gt;
+        Add Value!
+      &lt;/button&gt;
+      &lt;button onClick={decrementBtn} style={{ margin: "0 .5em" }}&gt;
+        Less Value!
+      &lt;/button&gt;
+    &lt;/&gt;
+  );
+}
+
+export default App;
+
+`;

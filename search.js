@@ -116,7 +116,15 @@ const addMenu = document.getElementById("addMenu"),
     },
     {
       link: "./React-useState-Method-08.html",
-      pageName: "toggle theme change react",
+      pageName: "toggle theme change in react",
+    },
+    {
+      link: "./React-useState-Method-08.html",
+      pageName: "increment end decrement value button click in react",
+    },
+    {
+      link: "./React-useState-Method-08.html",
+      pageName: "Add Value click btn in react",
     },
   ];
 
