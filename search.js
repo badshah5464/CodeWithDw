@@ -99,6 +99,18 @@ const addMenu = document.getElementById("addMenu"),
       pageName: "BrowserRouter Method",
     },
     {
+      link: "./react-BrowserRouter-05.html#componentInComponent",
+      pageName: "BrowserRouter Link?",
+    },
+    {
+      link: "./react-BrowserRouter-05.html#componentInComponent",
+      pageName: "BrowserRouter with components inside components",
+    },
+    {
+      link: "./react-BrowserRouter-05.html#componentInComponent",
+      pageName: "Components using link",
+    },
+    {
       link: "./react-propsMethod-06.html",
       pageName: "Props Method",
     },
