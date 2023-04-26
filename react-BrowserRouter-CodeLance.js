@@ -43,3 +43,56 @@ function Navigation() {
 
 export default Navigation
       `;
+document.getElementById("LinkAppJs").innerHTML = `
+import "./App.css";
+import "./Components/CSS/Component.css";
+import "./Components/CSS/Responsive.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./Components/Js/Header";
+import Home from "./Components/Js/Home";
+import Info from "./Components/Js/Info";
+import Service from "./Components/Js/Service";
+import LinkedPage from "./Components/Js/LinkedPage";
+import Link from "./Components/Js/Link";
+import Footer from "./Components/Js/Footer";
+
+function App() {
+  return (
+    &lt;&gt;
+      &lt;BrowserRouter&gt;
+        &lt;Header /&gt;
+        &lt;Routes&gt;
+          &lt;Route path="/" element={&lt;Home /&gt;} /&gt;
+          &lt;Route path="Info" element={&lt;Info /&gt;} /&gt;
+          &lt;Route path="Service" element={&lt;Service /&gt;} /&gt;
+          &lt;Route path="LinkedPage" element={&lt;LinkedPage /&gt;} /&gt;
+          {/* import path like this. */}
+          &lt;Route path="LinkedPage/Link" element={&lt;Link /&gt;} /&gt;
+        &lt;/Routes&gt;
+        &lt;Footer /&gt;
+      &lt;/BrowserRouter&gt;
+    &lt;/&gt;
+  );
+}
+
+export default App;
+
+`;
+document.getElementById("LinkedPageJs").innerHTML = `
+import React from "react";
+import { Link } from "react-router-dom";
+
+const LinkedPage = () =&gt; {
+  return (
+    &lt;div className="LinkedPage"&gt;
+      &lt;h1&gt;LinkedPage.js&lt;/h1&gt;
+      &lt;br /&gt;
+      {/* Use like this. */}
+      &lt;p&gt;Click Here!: &lt;Link to="Link"&gt;Link Component&lt;/Link&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  );
+};
+
+export default LinkedPage;
+
+`;
