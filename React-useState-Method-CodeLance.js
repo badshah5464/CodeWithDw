@@ -180,3 +180,37 @@ document.getElementById("DropDownWithClassNameCss").innerHTML = `
      scale: .95;
  }
 `;
+document.getElementById("formReact").innerHTML = `
+import React, { useState } from 'react'
+import "../Components/Form.css"
+
+const Form = () =&gt; {
+  const [UserName, setUserName] = useState("")
+  const [Email, setEmail] = useState("")
+  const [Password, setPassword] = useState("")
+
+  const Register = (e) =&gt; {
+    e.preventDefault()
+    alert("Submitted")
+  }
+
+  return (
+    &lt;section className='Form'&gt;
+      &lt;form onSubmit={Register}&gt;
+        &lt;input type="text" placeholder='UserName' value={UserName} onChange={(e) =&gt; setUserName(e.target.value)} /&gt;
+        &lt;input type="email" name="Email" placeholder='Email' value={Email} onChange={(e) =&gt; setEmail(e.target.value)} /&gt;
+        &lt;input type="password" name="Password" placeholder='Password' value={Password} onChange={(e) =&gt; setPassword(e.target.value)} /&gt;
+        &lt;input type="submit" value="Submit" className='submitBtn' /&gt;
+      &lt;/form&gt;
+
+      &lt;div className="formOutput"&gt;
+        &lt;p&gt;&lt;span&gt;UserName :&lt;/span&gt; {UserName}&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;Email :&lt;/span&gt; {Email}&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;Password :&lt;/span&gt; {Password}&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  )
+}
+
+export default Form
+`;

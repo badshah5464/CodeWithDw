@@ -404,7 +404,7 @@ td {
 
 .iFrem-Output>a.a-btn {
   display: inline-block;
-  margin: 1em 0;
+  margin: 1em 0 0 0;
 }
 
 .direct-declare-output {
