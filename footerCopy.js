@@ -21,7 +21,7 @@ const footerCode = `
                <li><a href="./NodeJs-not.html" class="hover-underline-animation"
                          target="_blank">NodeJs</a></li>
                <li><a href="./Django-not.html" class="hover-underline-animation"
-                         target="_blank">Django</a></li>
+                         target="_blank">MongoDb</a></li>
           </ul>
      </div>
 </section>
