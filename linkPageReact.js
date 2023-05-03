@@ -31,6 +31,10 @@ const reactPageLink = [
     link: "./React-useState-Method-08.html",
     pageName: "useState() Method",
   },
+  {
+    link: "./React-PrismJs-09.html",
+    pageName: "Prism in ReactJs",
+  },
 ];
 
 let reactLink = document.getElementById("reactLink");

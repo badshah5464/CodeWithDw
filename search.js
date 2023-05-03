@@ -170,6 +170,18 @@ const addMenu = document.getElementById("addMenu"),
                link: "./React-useState-Method-08.html#reactForm",
                pageName: "How to get form in react",
           },
+          {
+               link: "./React-Prismjs-09.html",
+               pageName: "PrismJs using in ReactJs",
+          },
+          {
+               link: "./React-Prismjs-09.html",
+               pageName: "PrismJs code in react",
+          },
+          {
+               link: "./React-Prismjs-09.html",
+               pageName: "PrismJs in react",
+          },
      ];
 
 const searchIcon = document.getElementById("searchIcon"),
