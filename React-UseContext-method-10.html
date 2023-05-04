@@ -18,7 +18,7 @@
      <link rel="stylesheet" href="./search.css">
      <link rel="stylesheet" href="./ruff.css">
      <style>
-          #reactLink>li:nth-child(10)>a {
+          #reactLink>li:nth-child(9)>a {
                color: var(--response-content-red);
           }
      </style>
@@ -117,19 +117,18 @@
           </aside>
           <section class="page-topic">
                <!--! Topic Heading -->
-               <h2>PrismJs in Reactjs</h2>
+               <h2>useContext() Method :</h2>
                <hr class="hr-simple" />
                <section class="forword-back-btn">
                     <div class="back-next-btn hint">
-                         <div class="_hint"><a href="./React-useState-Method-08.html"><i
-                                        class="fas fa-angle-left"></i>Back</a>
+                         <div class="_hint"><a href="./React-Prismjs-09.html"><i class="fas fa-angle-left"></i>Back</a>
                               <div class="_sugest">
                                    <p>Back to home</p>
                               </div>
                          </div>
                     </div>
                     <div class="back-next-btn hint">
-                         <div class="_hint"><a href="./React-UseContext-method-10.html">Next <i class="fas fa-angle-right"></i></a>
+                         <div class="_hint"><a href="||||||">Next <i class="fas fa-angle-right"></i></a>
                               <div class="_sugest">
                                    <p>Next Page</p>
                               </div>
@@ -138,24 +137,37 @@
                </section>
                <!--! Code Is Here  -->
                <section class="codeIsHere">
-                    <h2>Install Package :</h2>
-                    <pre class="myCode"><code class="language-js">PS C:\Users\admin\ReactApp\app> npm i prismjs</code></pre>
+
                     <section class="leng-code">
-                         <h3>Code.js</h3>
-                         <pre class="myCode">
-                              <code class="language-js" id="codePrism"></code>
-                         </pre>
-                         <h3>Home.js</h3>
-                         <pre class="myCode">
-                              <code class="language-js" id="homePrism"></code>
-                         </pre>
+                         <h3>CreateContext.js</h3>
+                         <pre class="myCode"><code class="language-js" id="CreateContext"></code></pre>
                          <hr class="hr-simple">
-                         <section class="iFrem-Output">
-                              <iframe src="https://prismjs-in-reactjs.netlify.app/" frameborder="0"
-                                   height="350px"></iframe>
-                              <a href="https://prismjs-in-reactjs.netlify.app/" class="a-btn" target="_blank">Output
-                                   :</a>
-                         </section>
+                         <h3>UseContext.js</h3>
+                         <pre class="myCode"><code class="language-js" id="UseContext"></code></pre>
+                         <hr class="hr-simple">
+                         <h3>App.js</h3>
+                         <pre class="myCode"><code class="language-js" id="AppJs"></code></pre>
+                         <hr class="hr-simple">
+                         <h3>Demo.js</h3>
+                         <pre class="myCode"><code class="language-js" id="DemoJs"></code></pre>
+                        
+                         <div class="outputResult">
+                              <div class="output">
+                                   <button class="a-btn" onclick="showOutput(event, 'CreateContextOutput')">Output :</button>
+                              </div>
+                              <div class="result" id="CreateContextOutput">
+                                   <span onclick="this.parentElement.style.display='none'">
+                                        <div class="cancelBar">
+                                             <div class="bar01"></div>
+                                             <div class="bar02"></div>
+                                        </div>
+                                   </span>
+
+                                   <h1>Hello World</h1>
+                                   <p>My Name is John Doe.</p>
+                                   
+                              </div>
+                         </div>                         
                     </section>
 
                </section>
@@ -177,6 +189,7 @@
                </div>
           </div>
      </section>
+     <script src="./React-UseContext-method-CodeLance.js"></script>
      <script src="./linkPageReact.js"></script>
      <script src="./search.js"></script>
      <script src="./AllLengMenu.js"></script>
@@ -184,7 +197,6 @@
      <script src="./lengPage.js"></script>
      <script src="./CodeWithDW.js"></script>
      <script src="./footerCopy.js"></script>
-     <script src="React-PrismJs-09-CodeLance.js"></script>
 </body>
 
 </html>

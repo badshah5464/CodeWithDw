@@ -182,6 +182,14 @@ const addMenu = document.getElementById("addMenu"),
                link: "./React-Prismjs-09.html",
                pageName: "PrismJs in react",
           },
+          {
+               link: "./React-UseContext-method-10.html",
+               pageName: "useContext Method"
+          },
+          {
+               link: "./React-UseContext-method-10.html",
+               pageName: "useContext Method in ReactJs"
+          },
      ];
 
 const searchIcon = document.getElementById("searchIcon"),
