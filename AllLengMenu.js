@@ -65,7 +65,7 @@ const menuReact = [
           pageName: "useContext() Method"
      },
      {
-          link: "./React-PrismJs-09.html",
+          link: "./React-Prismjs-09.html",
           pageName: "Prism in ReactJs",
      },
 ];
